@@ -1,0 +1,24 @@
+name = xforty technolgoies
+core = 6.x
+description = Drupal distribution
+
+; Core
+dependencies[] = block
+dependencies[] = dblog
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = path
+dependencies[] = system
+dependencies[] = upload
+dependencies[] = user
+
+; Contrib
+dependencies[] = admin_menu
+dependencies[] = content
+dependencies[] = features
+dependencies[] = jquery_ui
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_ui
