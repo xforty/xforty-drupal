@@ -1,6 +1,8 @@
 api = 2
 core = 6.x
 
+projects[drupal][version] = 6.20
+
 ; modules
 
 projects[advanced_help][version] = 1.2
