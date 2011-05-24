@@ -12,7 +12,7 @@ projects[admin_menu][version] = 1.6
 projects[admin_menu][subdir] = contrib
 
 projects[administerusersbyrole][version] = 1.4
-projects[administerusersbyrole][subdir] = crontrib
+projects[administerusersbyrole][subdir] = contrib
 
 projects[adminrole][version] = 1.3
 projects[adminrole][subdir] = contrib
@@ -160,7 +160,7 @@ projects[jquery_update][subdir] = contrib
 projects[libraries][version] = 1.0
 projects[libraries][subdir] = contrib
 
-projects[lightbox2][version] = 2.11
+projects[lightbox2][version] = 1.11
 projects[lightbox2][subdir] = contrib
 ; http://drupal.org/node/1082042#comment-4171732 (Adds grouping options for videos)
 projects[lightbox2][patch][] = "http://drupal.org/files/issues/lightbox2-add_video_grouping_opts-1082042-1.patch" 
