@@ -319,10 +319,10 @@ projects[wysiwyg_ckeditor_styles][subdir] = "custom"
 projects[wysiwyg_ckeditor_styles][download][type] = "git"
 projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_styles"
 
-projects[wysiwyg_ckeditor_youtube][type] = "module"
-projects[wysiwyg_ckeditor_youtube][type] = "custom"
-projects[wysiwyg_ckeditor_youtube][download][type] = "git"
-projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_youtube"
+;projects[wysiwyg_ckeditor_youtube][type] = "module"
+;projects[wysiwyg_ckeditor_youtube][type] = "custom"
+;projects[wysiwyg_ckeditor_youtube][download][type] = "git"
+;projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_youtube"
 
 ; features
 
