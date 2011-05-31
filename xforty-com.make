@@ -3,6 +3,11 @@ core = 6.x
 
 projects[drupal][version] = 6.20
 
+; Add profile for full distro build
+projects[xforty][type] = profile
+projects[xforty][download][type] = git
+projects[xforty][download][url] = git@github.com:xforty/xforty-drupal.git
+
 ; modules
 
 projects[advanced_help][version] = 1.2
