@@ -1,9 +1,10 @@
 api = 2
 core = 6.x
 
-projects[drupal][version] = 6.20
+projects[drupal][version] = 6.22
 
-; Add profile for full distro build
+; profile
+
 projects[xforty][type] = profile
 projects[xforty][download][type] = git
 projects[xforty][download][url] = git@github.com:xforty/xforty-drupal.git
