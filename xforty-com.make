@@ -102,9 +102,6 @@ projects[filefield][subdir] = contrib
 projects[fontyourface][version] = 2.6
 projects[fontyourface][subdir] = contrib
 
-projects[fusion][version] = 1.1
-projects[fusion][subdir] = contrib
-
 projects[globalredirect][version] = 1.2
 projects[globalredirect][subdir] = contrib
 
@@ -210,10 +207,7 @@ projects[nodeblock][subdir] = contrib
 projects[nodereference_views][version] = 1.3
 projects[nodereference_views][subdir] = contrib
 
-projects[omega][version] = 1.0
-projects[omega][subdir] = contrib
-
-projects[override_node_options][version] = 1.12
+\projects[override_node_options][version] = 1.12
 projects[override_node_options][subdir] = contrib
 
 projects[page_title][version] = 2.3
@@ -337,6 +331,10 @@ projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_c
 ;----------------------------------------
 
 projects[seven][version] = 1.0-rc1 
+
+projects[fusion][version] = 1.1
+
+projects[omega][version] = 1.0
 
 ;----------------------------------------
 ; libraries
