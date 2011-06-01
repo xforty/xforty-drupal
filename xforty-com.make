@@ -344,7 +344,7 @@ projects[seven][version] = 1.0-rc1
 
 libraries[profiler][download][type] = git
 libraries[profiler][download][url] = http://git.drupal.org/project/profiler.git
-libraries[profiler][download][revision] = 0fad6aacad6788815e97f6b95d5c6ef8a2d7313c
+libraries[profiler][download][tag] = 2.0-beta2
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
