@@ -4,14 +4,6 @@ core = 6.x
 projects[drupal][version] = 6.22
 
 ;----------------------------------------
-; profile
-;----------------------------------------
-
-projects[xforty][type] = profile
-projects[xforty][download][type] = git
-projects[xforty][download][url] = git@github.com:xforty/xforty-drupal.git
-
-;----------------------------------------
 ; modules
 ;----------------------------------------
 
@@ -337,6 +329,7 @@ projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_c
 ;----------------------------------------
 ; features
 ;----------------------------------------
+
 
 
 ;----------------------------------------
