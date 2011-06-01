@@ -3,13 +3,17 @@ core = 6.x
 
 projects[drupal][version] = 6.22
 
+;----------------------------------------
 ; profile
+;----------------------------------------
 
 projects[xforty][type] = profile
 projects[xforty][download][type] = git
 projects[xforty][download][url] = git@github.com:xforty/xforty-drupal.git
 
+;----------------------------------------
 ; modules
+;----------------------------------------
 
 projects[advanced_help][version] = 1.2
 projects[advanced_help][subdir] = contrib
@@ -330,14 +334,20 @@ projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_c
 ;projects[wysiwyg_ckeditor_youtube][download][type] = "git"
 ;projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_youtube"
 
+;----------------------------------------
 ; features
+;----------------------------------------
 
 
+;----------------------------------------
 ; themes
+;----------------------------------------
 
 projects[seven][version] = 1.0-rc1 
 
+;----------------------------------------
 ; libraries
+;----------------------------------------
 
 libraries[profiler][download][type] = git
 libraries[profiler][download][url] = http://git.drupal.org/project/profiler.git
