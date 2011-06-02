@@ -340,9 +340,10 @@ projects[seven][version] = 1.0-rc1
 ; libraries
 ;----------------------------------------
 
-libraries[profiler][download][type] = git
-libraries[profiler][download][url] = http://git.drupal.org/project/profiler.git
-libraries[profiler][download][tag] = 6.x-2.0-beta2
+libraries[profiler][download][type] = get
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz
+libraries[profiler][directory_name] = profiler
+libraries[profiler][destination] = libraries
 
 libraries[jquery_ui][download][type] = "get"
 libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
