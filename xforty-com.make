@@ -42,9 +42,6 @@ libraries[mp3player][destination] = "libraries"
 ; modules
 ;----------------------------------------
 
-projects[advanced_help][version] = 1.2
-projects[advanced_help][subdir] = contrib
-
 projects[admin_menu][version] = 1.6
 projects[admin_menu][subdir] = contrib
 
@@ -53,6 +50,9 @@ projects[administerusersbyrole][subdir] = contrib
 
 projects[adminrole][version] = 1.3
 projects[adminrole][subdir] = contrib
+
+projects[advanced_help][version] = 1.2
+projects[advanced_help][subdir] = contrib
 
 projects[auto_nodetitle][version] = 1.2
 projects[auto_nodetitle][subdir] = contrib
