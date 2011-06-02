@@ -4,6 +4,41 @@ core = 6.x
 projects[drupal][version] = 6.22
 
 ;----------------------------------------
+; features
+;----------------------------------------
+
+
+
+;----------------------------------------
+; libraries
+;----------------------------------------
+
+libraries[profiler][download][type] = get
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz
+libraries[profiler][directory_name] = profiler
+libraries[profiler][destination] = libraries
+
+libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][directory_name] = jquery.ui
+libraries[jquery_ui][destination] = "libraries"
+
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2/ckeditor_3.2.tar.gz"
+libraries[ckeditor][directory_name] = ckeditor
+libraries[ckeditor][destination] = "libraries"
+
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip"
+libraries[tinymce][directory_name] = tinymce
+libraries[tinymce][destination] = "libraries"
+
+libraries[mp3player][download][type] = "get"
+libraries[mp3player][download][url] = "http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip"
+libraries[mp3player][directory_name] = mp3player
+libraries[mp3player][destination] = "libraries"
+
+;----------------------------------------
 ; modules
 ;----------------------------------------
 
@@ -304,7 +339,6 @@ projects[wysiwyg][subdir] = contrib
 ; http://drupal.org/node/624018
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
 
-
 projects[wysiwyg_ckeditor_nice][type] = "module"
 projects[wysiwyg_ckeditor_nice][subdir] = "custom"
 projects[wysiwyg_ckeditor_nice][download][type] = "git"
@@ -321,12 +355,6 @@ projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_c
 ;projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_youtube"
 
 ;----------------------------------------
-; features
-;----------------------------------------
-
-
-
-;----------------------------------------
 ; themes
 ;----------------------------------------
 
@@ -336,31 +364,3 @@ projects[omega][version] = 1.0
 
 projects[seven][version] = 1.0-rc1 
 
-;----------------------------------------
-; libraries
-;----------------------------------------
-
-libraries[profiler][download][type] = get
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz
-libraries[profiler][directory_name] = profiler
-libraries[profiler][destination] = libraries
-
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
-libraries[jquery_ui][directory_name] = jquery.ui
-libraries[jquery_ui][destination] = "libraries"
-
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2/ckeditor_3.2.tar.gz"
-libraries[ckeditor][directory_name] = ckeditor
-libraries[ckeditor][destination] = "libraries"
-
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip"
-libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][destination] = "libraries"
-
-libraries[mp3player][download][type] = "get"
-libraries[mp3player][download][url] = "http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip"
-libraries[mp3player][directory_name] = mp3player
-libraries[mp3player][destination] = "libraries"
