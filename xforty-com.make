@@ -112,6 +112,9 @@ projects[draggableviews][subdir] = contrib
 projects[ds][version] = 1.4
 projects[ds][subdir] = contrib
 
+projects[email][version] = 1.2
+projects[email][subdir] = contrib
+
 projects[emfield][version] = 2.5
 projects[emfield][subdir] = contrib
 
