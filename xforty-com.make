@@ -95,7 +95,7 @@ projects[ctm][subdir] = contrib
 projects[ctools][version] = 1.7
 projects[ctools][subdir] = contrib
 
-projects[date][version] = 2.6
+projects[date][version] = 2.7
 projects[date][subdir] = contrib
 ; http://drupal.org/node/882980#comment-3382966 (adds support for PHP versions < 5.2)
 projects[date][patch][] = "http://drupal.org/files/issues/date_882980-26_WSOD.patch"
