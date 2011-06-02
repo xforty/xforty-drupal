@@ -336,7 +336,7 @@ projects[workflow][subdir] = contrib
 ; The exportables & features patch wysiwyg-624018-with-ui-4.patch requires version 2.2
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][subdir] = contrib
-; http://drupal.org/node/624018
+; http://drupal.org/node/624018#comment-3389060
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
 
 projects[wysiwyg_ckeditor_nice][type] = "module"
