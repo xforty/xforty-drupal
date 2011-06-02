@@ -330,11 +330,11 @@ projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_c
 ; themes
 ;----------------------------------------
 
-projects[seven][version] = 1.0-rc1 
-
 projects[fusion][version] = 1.1
 
 projects[omega][version] = 1.0
+
+projects[seven][version] = 1.0-rc1 
 
 ;----------------------------------------
 ; libraries
