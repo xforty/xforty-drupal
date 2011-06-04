@@ -89,6 +89,9 @@ projects[content_profile][subdir] = contrib
 projects[content_type_overview][version] = 1.5
 projects[content_type_overview][subdir] = contrib
 
+projects[context][version] = 3.0
+projects[context][subdir] = contrib
+
 projects[ctm][version] = 1.1
 projects[ctm][subdir] = contrib
 
