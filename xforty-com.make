@@ -98,7 +98,7 @@ projects[context][subdir] = contrib
 projects[ctm][version] = 1.1
 projects[ctm][subdir] = contrib
 
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.8
 projects[ctools][subdir] = contrib
 
 projects[date][version] = 2.7
@@ -233,7 +233,7 @@ projects[menu_block][subdir] = contrib
 projects[menu_breadcrumb][version] = 1.3
 projects[menu_breadcrumb][subdir] = contrib
 
-projects[mimemail][version] = 1.0-alpha8
+projects[mimemail][version] = 1.0-beta1
 projects[mimemail][subdir] = contrib
 
 projects[mp3player][version] = 1.1
