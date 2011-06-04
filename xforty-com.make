@@ -80,6 +80,9 @@ projects[captcha_pack][subdir] = contrib
 projects[cck][version] = 2.9
 projects[cck][subdir] = contrib
 
+projects[checkbox_validate][version] = 2.1
+projects[checkbox_validate][subdir] = contrib
+
 projects[config_perms][version] = 2.0
 projects[config_perms][subdir] = contrib
 
@@ -321,6 +324,9 @@ projects[views_customfield][version] = 1.0
 projects[views_customfield][subdir] = contrib
 ; http://drupal.org/node/1019000#comment-3917302 (lets you use tokens in phpcode custom field)
 projects[views_customfield][patch][] = "http://drupal.org/files/issues/views_customfield-phpcode-use-tokens-1019000-1.patch"
+
+projects[views_hacks][version] = 1.0-beta2
+projects[views_hacks][subdir] = contrib
 
 projects[views_slideshow][version] = 2.3
 projects[views_slideshow][subdir] = contrib
