@@ -4,11 +4,43 @@ core = 6.x
 projects[drupal][version] = 6.22
 
 ;----------------------------------------
-; modules
+; features
 ;----------------------------------------
 
-projects[advanced_help][version] = 1.2
-projects[advanced_help][subdir] = contrib
+
+
+;----------------------------------------
+; libraries
+;----------------------------------------
+
+libraries[profiler][download][type] = get
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz
+libraries[profiler][directory_name] = profiler
+libraries[profiler][destination] = libraries
+
+libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][directory_name] = jquery.ui
+libraries[jquery_ui][destination] = "libraries"
+
+libraries[ckeditor][download][type] = "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2/ckeditor_3.2.tar.gz"
+libraries[ckeditor][directory_name] = ckeditor
+libraries[ckeditor][destination] = "libraries"
+
+libraries[tinymce][download][type] = "get"
+libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip"
+libraries[tinymce][directory_name] = tinymce
+libraries[tinymce][destination] = "libraries"
+
+libraries[mp3player][download][type] = "get"
+libraries[mp3player][download][url] = "http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip"
+libraries[mp3player][directory_name] = mp3player
+libraries[mp3player][destination] = "libraries"
+
+;----------------------------------------
+; modules
+;----------------------------------------
 
 projects[admin_menu][version] = 1.6
 projects[admin_menu][subdir] = contrib
@@ -18,6 +50,9 @@ projects[administerusersbyrole][subdir] = contrib
 
 projects[adminrole][version] = 1.3
 projects[adminrole][subdir] = contrib
+
+projects[advanced_help][version] = 1.2
+projects[advanced_help][subdir] = contrib
 
 projects[auto_nodetitle][version] = 1.2
 projects[auto_nodetitle][subdir] = contrib
@@ -45,6 +80,9 @@ projects[captcha_pack][subdir] = contrib
 projects[cck][version] = 2.9
 projects[cck][subdir] = contrib
 
+projects[checkbox_validate][version] = 2.1
+projects[checkbox_validate][subdir] = contrib
+
 projects[config_perms][version] = 2.0
 projects[config_perms][subdir] = contrib
 
@@ -54,16 +92,17 @@ projects[content_profile][subdir] = contrib
 projects[content_type_overview][version] = 1.5
 projects[content_type_overview][subdir] = contrib
 
+projects[context][version] = 3.0
+projects[context][subdir] = contrib
+
 projects[ctm][version] = 1.1
 projects[ctm][subdir] = contrib
 
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.8
 projects[ctools][subdir] = contrib
 
-projects[date][version] = 2.6
+projects[date][version] = 2.7
 projects[date][subdir] = contrib
-; http://drupal.org/node/882980#comment-3382966 (adds support for PHP versions < 5.2)
-projects[date][patch][] = "http://drupal.org/files/issues/date_882980-26_WSOD.patch"
 
 projects[devel][version] = 1.24
 projects[devel][subdir] = contrib
@@ -79,6 +118,9 @@ projects[draggableviews][subdir] = contrib
 
 projects[ds][version] = 1.4
 projects[ds][subdir] = contrib
+
+projects[email][version] = 1.2
+projects[email][subdir] = contrib
 
 projects[emfield][version] = 2.5
 projects[emfield][subdir] = contrib
@@ -192,7 +234,7 @@ projects[menu_block][subdir] = contrib
 projects[menu_breadcrumb][version] = 1.3
 projects[menu_breadcrumb][subdir] = contrib
 
-projects[mimemail][version] = 1.0-alpha8
+projects[mimemail][version] = 1.0-beta1
 projects[mimemail][subdir] = contrib
 
 projects[mp3player][version] = 1.1
@@ -210,7 +252,7 @@ projects[nodeblock][subdir] = contrib
 projects[nodereference_views][version] = 1.3
 projects[nodereference_views][subdir] = contrib
 
-\projects[override_node_options][version] = 1.12
+projects[override_node_options][version] = 1.12
 projects[override_node_options][subdir] = contrib
 
 projects[page_title][version] = 2.3
@@ -284,6 +326,9 @@ projects[views_customfield][subdir] = contrib
 ; http://drupal.org/node/1019000#comment-3917302 (lets you use tokens in phpcode custom field)
 projects[views_customfield][patch][] = "http://drupal.org/files/issues/views_customfield-phpcode-use-tokens-1019000-1.patch"
 
+projects[views_hacks][version] = 1.0-beta2
+projects[views_hacks][subdir] = contrib
+
 projects[views_slideshow][version] = 2.3
 projects[views_slideshow][subdir] = contrib
 
@@ -304,9 +349,8 @@ projects[workflow][subdir] = contrib
 ; The exportables & features patch wysiwyg-624018-with-ui-4.patch requires version 2.2
 projects[wysiwyg][version] = 2.2
 projects[wysiwyg][subdir] = contrib
-; http://drupal.org/node/624018
+; http://drupal.org/node/624018#comment-3389060
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
-
 
 projects[wysiwyg_ckeditor_nice][type] = "module"
 projects[wysiwyg_ckeditor_nice][subdir] = "custom"
@@ -324,45 +368,12 @@ projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_c
 ;projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_youtube"
 
 ;----------------------------------------
-; features
-;----------------------------------------
-
-
-
-;----------------------------------------
 ; themes
 ;----------------------------------------
-
-projects[seven][version] = 1.0-rc1 
 
 projects[fusion][version] = 1.1
 
 projects[omega][version] = 1.0
 
-;----------------------------------------
-; libraries
-;----------------------------------------
+projects[seven][version] = 1.0-rc1 
 
-libraries[profiler][download][type] = git
-libraries[profiler][download][url] = http://git.drupal.org/project/profiler.git
-libraries[profiler][download][tag] = 6.x-2.0-beta2
-
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
-libraries[jquery_ui][directory_name] = jquery.ui
-libraries[jquery_ui][destination] = "libraries"
-
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2/ckeditor_3.2.tar.gz"
-libraries[ckeditor][directory_name] = ckeditor
-libraries[ckeditor][destination] = "libraries"
-
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip"
-libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][destination] = "libraries"
-
-libraries[mp3player][download][type] = "get"
-libraries[mp3player][download][url] = "http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip"
-libraries[mp3player][directory_name] = mp3player
-libraries[mp3player][destination] = "libraries"
