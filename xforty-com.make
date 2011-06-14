@@ -68,7 +68,7 @@ projects[date][patch][] = "http://drupal.org/files/issues/date_882980-26_WSOD.pa
 projects[devel][version] = 1.24
 projects[devel][subdir] = contrib
 
-projects[devel_themer][version] = "1.x-dev"
+projects[devel_themer][version] = 1.x-dev
 projects[devel_themer][subdir] = contrib
 
 projects[diff][version] = 2.1
