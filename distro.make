@@ -15,6 +15,8 @@ includes[] = http://github.com/xforty/xforty-drupal/raw/master/xforty-com.make
 ; client name
 ;----------------------------------------
 
+; Must create the client in Aegir first.
+; The internal (machine) name of the client.
 ;client_uname = '{CLIENT}'
 
 ;----------------------------------------
