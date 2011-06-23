@@ -17,7 +17,7 @@ dependencies[] = user
 
 ; Contrib
 dependencies[] = admin_menu
-dependencies[] = administerusersbyrole
+;dependencies[] = administerusersbyrole
 dependencies[] = adminrole
 dependencies[] = advanced_help
 dependencies[] = better_formats
