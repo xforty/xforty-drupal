@@ -237,9 +237,9 @@ projects[menu_breadcrumb][subdir] = contrib
 projects[mimemail][version] = 1.0-beta1
 projects[mimemail][subdir] = contrib
 ; http://drupal.org/node/1181486#comment-4570638 (fixes issue with recipient to address)
-projects[link][patch][] = "http://drupal.org/files/issues/mimemail_1181486_01.patch"
+projects[mimemail][patch][] = "http://drupal.org/files/issues/mimemail_1181486_01.patch"
 ; http://drupal.org/node/1181486#comment-4595028 (fixes issue with sending email to user action)
-projects[link][patch][] = "http://drupal.org/files/issues/mimemail_1181486_02.patch"
+projects[mimemail][patch][] = "http://drupal.org/files/issues/mimemail_1181486_02.patch"
 
 projects[mp3player][version] = 1.1
 projects[mp3player][subdir] = contrib
@@ -369,10 +369,10 @@ projects[wysiwyg_ckeditor_styles][subdir] = "custom"
 projects[wysiwyg_ckeditor_styles][download][type] = "git"
 projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_styles"
 
-;projects[wysiwyg_ckeditor_youtube][type] = "module"
-;projects[wysiwyg_ckeditor_youtube][type] = "custom"
-;projects[wysiwyg_ckeditor_youtube][download][type] = "git"
-;projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_youtube"
+projects[wysiwyg_ckeditor_youtube][type] = "module"
+projects[wysiwyg_ckeditor_youtube][subdir] = "custom"
+projects[wysiwyg_ckeditor_youtube][download][type] = "git"
+projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_youtube"
 
 ;----------------------------------------
 ; themes
