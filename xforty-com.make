@@ -73,7 +73,6 @@ projects[better_formats][subdir] = contrib
 projects[better_formats][patch][] = "http://drupal.org/files/issues/better_formats-350696_1.patch"
 ; http://drupal.org/node/616496#comment-4074870 (adds features integration)
 projects[better_formats][patch][] = "http://drupal.org/files/issues/616496-better_formats-features_2.patch"
-; http://drupal.org/node/719728
 
 projects[calendar][version] = 2.4
 projects[calendar][subdir] = contrib
