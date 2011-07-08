@@ -60,6 +60,13 @@ projects[auto_nodetitle][subdir] = contrib
 projects[backup_migrate][version] = 2.4
 projects[backup_migrate][subdir] = contrib
 
+projects[better_exposed_filters][download][type] = file
+; From a dev version of the 6.x-1.x branch
+projects[better_exposed_filters][download][url] = http://drupalcode.org/project/better_exposed_filters.git/snapshot/0ebb0a6b09d28ca983aa1ec04908a23def420867.tar.gz
+projects[better_exposed_filters][subdir] = contrib
+; http://drupal.org/node/1159232#comment-4710372 (adds Links option to filter form)
+projects[better_exposed_filters][patch][] = http://drupal.org/files/issues/select_as_links_backport_to_6.x-1.x-1159232-4.patch
+
 projects[better_formats][version] = 1.2
 projects[better_formats][subdir] = contrib
 ; http://drupal.org/node/350696#comment-2710662 (adds per field format settings via cck widget)
