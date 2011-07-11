@@ -107,6 +107,9 @@ projects[ctm][subdir] = contrib
 projects[ctools][version] = 1.8
 projects[ctools][subdir] = contrib
 
+projects[custom_search][version] = 1.7
+projects[custom_search][subdir] = contrib
+
 projects[date][version] = 2.7
 projects[date][subdir] = contrib
 
@@ -291,9 +294,6 @@ projects[role_delegation][subdir] = contrib
 
 projects[rules][version] = 1.4
 projects[rules][subdir] = contrib
-
-projects[search_config][version] = 1.6
-projects[search_config][subdir] = contrib
 
 projects[securepages][version] = 1.8
 projects[securepages][subdir] = contrib
