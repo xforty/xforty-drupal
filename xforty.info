@@ -59,6 +59,7 @@ dependencies[] = path_redirect
 dependencies[] = pathauto
 dependencies[] = revision_all
 dependencies[] = role_delegation
+dependencies[] = search_config
 dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = token
