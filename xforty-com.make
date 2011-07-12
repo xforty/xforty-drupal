@@ -318,6 +318,9 @@ projects[token][subdir] = contrib
 projects[user_delete][version] = 1.4
 projects[user_delete][subdir] = contrib
 
+projects[user_settings_access][version] = 1.1
+projects[user_settings_access][subdir] = contrib
+
 projects[vertical_tabs][version] = 1.0-rc1
 projects[vertical_tabs][subdir] = contrib
 

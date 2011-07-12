@@ -64,6 +64,7 @@ dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = token
 dependencies[] = user_delete
+dependencies[] = user_settings_access
 dependencies[] = views
 dependencies[] = views_ui
 dependencies[] = vertical_tabs
