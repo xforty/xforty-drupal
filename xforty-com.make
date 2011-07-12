@@ -321,6 +321,12 @@ projects[user_delete][subdir] = contrib
 projects[user_settings_access][version] = 1.1
 projects[user_settings_access][subdir] = contrib
 
+projects[uuid][version] = 1.0-beta2
+projects[uuid][subdir] = contrib
+
+projects[uuid_features][version] = 1.0-alpha1
+projects[uuid_features][subdir] = contrib
+
 projects[vertical_tabs][version] = 1.0-rc1
 projects[vertical_tabs][subdir] = contrib
 
@@ -355,12 +361,6 @@ projects[viewsdisplaytabs][version] = 1.0-beta6
 projects[viewsdisplaytabs][subdir] = contrib
 ; http://drupal.org/node/824086 (only display tabs on displays that are checked)
 projects[viewsdisplaytabs][patch][] = "http://drupal.org/files/issues/current_display_enabled.patch"
-
-projects[uuid][version] = 1.0-beta2
-projects[uuid][subdir] = contrib
-
-projects[uuid_features][version] = 1.0-alpha1
-projects[uuid_features][subdir] = contrib
 
 projects[webform][version] = 3.11
 projects[webform][subdir] = contrib
