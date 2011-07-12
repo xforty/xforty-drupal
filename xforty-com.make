@@ -119,6 +119,12 @@ projects[devel][subdir] = contrib
 projects[devel_themer][version] = 1.x-dev
 projects[devel_themer][subdir] = contrib
 
+projects[dformat][type] = module
+projects[dformat][subdir] = contrib
+projects[dformat][download][type] = git
+projects[dformat][download][url] = git://github.com/othermachines/dformat.git
+projects[dformat][download][tag] = 6.x-1.2-beta
+
 projects[diff][version] = 2.1
 projects[diff][subdir] = contrib
 
