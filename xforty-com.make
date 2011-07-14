@@ -84,6 +84,9 @@ projects[diff][subdir] = contrib
 projects[ds][version] = 1.2
 projects[ds][subdir] = contrib
 
+projects[entity][version] = 1.0-beta10
+projects[entity][subdir] = contrib
+
 projects[email][version] = 1.0-beta1
 projects[email][subdir] = contrib
 
@@ -101,12 +104,6 @@ projects[google_analytics][subdir] = contrib
 
 projects[image_resize_filter][version] = 1.12
 projects[image_resize_filter][subdir] = contrib
-
-projects[imce][version] = 1.4
-projects[imce][subdir] = contrib
-
-projects[imce_crop][version] = 1.0-beta2
-projects[imce_crop][subdir] = contrib
 
 projects[jquery_update][version] = 2.2
 projects[jquery_update][subdir] = contrib
@@ -144,11 +141,11 @@ projects[override_node_options][subdir] = contrib
 projects[page_title][version] = 2.5
 projects[page_title][subdir] = contrib
 
-projects[pathauto][version] = 1.5
+projects[pathauto][version] = 1.0-rc2
 projects[pathauto][subdir] = contrib
 
-projects[pathlogic][version] = 1.2
-projects[pathlogic][subdir] = contrib
+projects[pathologic][version] = 1.2
+projects[pathologic][subdir] = contrib
 
 projects[quicktabs][version] = 3.0-beta1
 projects[quicktabs][subdir] = contrib
