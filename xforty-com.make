@@ -1,12 +1,11 @@
 api = 2
-core = 6.x
+core = 7.x
 
-projects[drupal][version] = 6.22
+projects[drupal][version] = 7.4
 
 ;----------------------------------------
 ; features
 ;----------------------------------------
-
 
 
 ;----------------------------------------
@@ -14,337 +13,184 @@ projects[drupal][version] = 6.22
 ;----------------------------------------
 
 libraries[profiler][download][type] = get
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-6.x-2.0-beta2.tar.gz
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.x-dev.tar.gz
 libraries[profiler][directory_name] = profiler
 libraries[profiler][destination] = libraries
 
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip"
+libraries[jquery_ui][download][type] = get
+libraries[jquery_ui][download][url] = http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip
 libraries[jquery_ui][directory_name] = jquery.ui
-libraries[jquery_ui][destination] = "libraries"
+libraries[jquery_ui][destination] = libraries
 
-libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2/ckeditor_3.2.tar.gz"
+libraries[ckeditor][download][type] = get
+libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2/ckeditor_3.2.tar.gz
 libraries[ckeditor][directory_name] = ckeditor
-libraries[ckeditor][destination] = "libraries"
+libraries[ckeditor][destination] = libraries
 
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip"
+libraries[tinymce][download][type] = get
+libraries[tinymce][download][url] = http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip
 libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][destination] = "libraries"
-
-libraries[mp3player][download][type] = "get"
-libraries[mp3player][download][url] = "http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip"
-libraries[mp3player][directory_name] = mp3player
-libraries[mp3player][destination] = "libraries"
+libraries[tinymce][destination] = libraries
 
 ;----------------------------------------
 ; modules
 ;----------------------------------------
 
-projects[admin_menu][version] = 1.6
+projects[admin_menu][version] = 3.0-rc1
 projects[admin_menu][subdir] = contrib
 
-projects[administerusersbyrole][version] = 1.4
-projects[administerusersbyrole][subdir] = contrib
-
-projects[adminrole][version] = 1.3
-projects[adminrole][subdir] = contrib
-
-projects[advanced_help][version] = 1.2
+projects[advanced_help][version] = 1.0-beta1
 projects[advanced_help][subdir] = contrib
 
-projects[auto_nodetitle][version] = 1.2
+projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
 
-projects[backup_migrate][version] = 2.4
+projects[backup_migrate][version] = 2.2
 projects[backup_migrate][subdir] = contrib
 
-projects[better_formats][version] = 1.2
-projects[better_formats][subdir] = contrib
-; http://drupal.org/node/350696#comment-2710662 (adds per field format settings via cck widget)
-projects[better_formats][patch][] = "http://drupal.org/files/issues/better_formats-350696_1.patch"
-; http://drupal.org/node/616496#comment-4074870 (adds features integration)
-projects[better_formats][patch][] = "http://drupal.org/files/issues/616496-better_formats-features_2.patch"
-; http://drupal.org/node/719728
-
-projects[calendar][version] = 2.4
+projects[calendar][version] = 2.0-alpha1
 projects[calendar][subdir] = contrib
 
-projects[captcha][version] = 2.4
+projects[captcha][version] = 1.0-alpha3
 projects[captcha][subdir] = contrib
-
-projects[captcha_pack][version] = 1.0-beta3
-projects[captcha_pack][subdir] = contrib
-
-projects[cck][version] = 2.9
-projects[cck][subdir] = contrib
-
-projects[checkbox_validate][version] = 2.1
-projects[checkbox_validate][subdir] = contrib
 
 projects[config_perms][version] = 2.0
 projects[config_perms][subdir] = contrib
 
-projects[content_profile][version] = 1.0
-projects[content_profile][subdir] = contrib
+projects[profile2][version] = 1.0-beta4
+projects[profile2][subdir] = contrib
 
-projects[content_type_overview][version] = 1.5
+projects[content_type_overview][version] = 1.0-beta2
 projects[content_type_overview][subdir] = contrib
 
-projects[context][version] = 3.0
+projects[context][version] = 3.0-beta1
 projects[context][subdir] = contrib
 
-projects[ctm][version] = 1.1
-projects[ctm][subdir] = contrib
-
-projects[ctools][version] = 1.8
+projects[ctools][version] = 1.0-beta1
 projects[ctools][subdir] = contrib
 
-projects[date][version] = 2.7
+projects[date][version] = 2.0-alpha3
 projects[date][subdir] = contrib
 
-projects[devel][version] = 1.24
+projects[devel][version] = 1.0
 projects[devel][subdir] = contrib
 
 projects[devel_themer][version] = 1.x-dev
 projects[devel_themer][subdir] = contrib
 
-projects[diff][version] = 2.1
+projects[diff][version] = 2.0-beta2
 projects[diff][subdir] = contrib
 
-projects[draggableviews][version] = 3.5
-projects[draggableviews][subdir] = contrib
-
-projects[ds][version] = 1.4
+projects[ds][version] = 1.2
 projects[ds][subdir] = contrib
 
-projects[email][version] = 1.2
+projects[email][version] = 1.0-beta1
 projects[email][subdir] = contrib
 
-projects[emfield][version] = 2.5
-projects[emfield][subdir] = contrib
-
-projects[exportables][version] = 2.0-beta1
-projects[exportables][subdir] = contrib
-projects[exportables][patch][] = "http://drupal.org/files/issues/fix_enable_sync.patch"
-
-projects[features][version] = 1.0
+projects[features][version] = 1.0-beta3
 projects[features][subdir] = contrib
-; http://drupal.org/node/727266 -- doesn't support boxes very well
-projects[features][patch][] = "http://drupal.org/files/issues/features.block_.inc__0_0.patch"
-; http://drupal.org/node/894572 -- Dependencies only features
-projects[features][patch][] = "http://drupal.org/files/issues/features_894572.patch"
-; http://drupal.org/node/968826 (lets uuid menu link paths be recreated with the correct nid)
-projects[features][patch][] = "http://drupal.org/files/issues/uuid_features-menu_links-968826.patch"
 
-projects[feeds][version] = 1.0-beta10
+projects[feeds][version] = 2.0-alpha4
 projects[feeds][subdir] = contrib
 
-projects[filefield][version] = 3.10
-projects[filefield][subdir] = contrib
-
-projects[fontyourface][version] = 2.6
+projects[fontyourface][version] = 1.3
 projects[fontyourface][subdir] = contrib
 
-projects[globalredirect][version] = 1.2
-projects[globalredirect][subdir] = contrib
-
-projects[glossary][version] = 1.6
-projects[glossary][subdir] = contrib
-; http://drupal.org/node/315842 (fixes filter adding < before closing 'a' html tags)
-projects[glossary][patch][] = "http://drupal.org/files/issues/glossary_6.patch"
-
-projects[gmap][version] = 1.1
-projects[gmap][subdir] = contrib
-
-projects[google_analytics][version] = 3.3
+projects[google_analytics][version] = 1.2
 projects[google_analytics][subdir] = contrib
-
-projects[ie_css_optimizer][version] = 1.1
-projects[ie_css_optimizer][subdir] = contrib
-
-projects[imageapi][version] = 1.10
-projects[imageapi][subdir] = contrib
-
-projects[imagecache][version] = 2.0-beta12
-projects[imagecache][subdir] = contrib
-
-projects[imagefield][version] = 3.10
-projects[imagefield][subdir] = contrib
 
 projects[image_resize_filter][version] = 1.12
 projects[image_resize_filter][subdir] = contrib
 
-projects[imce][version] = 2.1
+projects[imce][version] = 1.4
 projects[imce][subdir] = contrib
 
-projects[imce_crop][version] = 1.1
+projects[imce_crop][version] = 1.0-beta2
 projects[imce_crop][subdir] = contrib
 
-projects[imce_wysiwyg][version] = 1.1
-projects[imce_wysiwyg][subdir] = contrib
-
-projects[input_formats][version] = 1.0-beta6
-projects[input_formats][subdir] = contrib
-
-projects[install_profile_api][version] = 2.1
-projects[install_profile_api][subdir] = contrib
-
-projects[jquery_ui][version] = 1.4
-projects[jquery_ui][subdir] = contrib
-; http://drupal.org/node/489140 (adds Libraries API support)
-projects[jquery_ui][patch][] = "http://drupal.org/files/issues/jquery_ui_489140_37.patch"
-; http://drupal.org/node/654090 (adds jQuery UI Loader module)
-projects[jquery_ui][patch][] = "http://drupal.org/files/issues/jquery_ui-loader-654090-after-patch-489140.patch"
-
-projects[jquery_update][version] = 2.0-alpha1
+projects[jquery_update][version] = 2.2
 projects[jquery_update][subdir] = contrib
 
 projects[libraries][version] = 1.0
 projects[libraries][subdir] = contrib
 
-projects[lightbox2][version] = 1.11
-projects[lightbox2][subdir] = contrib
-; http://drupal.org/node/1082042#comment-4171732 (Adds grouping options for videos)
-projects[lightbox2][patch][] = "http://drupal.org/files/issues/lightbox2-add_video_grouping_opts-1082042-1.patch" 
-
-projects[link][version] = 2.9
+projects[link][version] = 1.0-alpha3
 projects[link][subdir] = contrib
-; http://drupal.org/node/1066328#comment-4315474 (adds "URL, as absolute URL" formatter)
-projects[link][patch][] = "http://drupal.org/files/issues/link-absolute_formatter-1066328-3.patch"
-; http://drupal.org/node/1053908#comment-4059760 (advanced help integration)
-projects[link][patch][] = "http://drupal.org/files/issues/link-1053908.patch"
 
-projects[location][version] = 3.1
-projects[location][subdir] = contrib
+projects[media][version] = 1.0-beta5
+projects[media][subdir] = contrib
 
-projects[media_youtube][version] = 1.3
+projects[media_youtube][version] = 1.0-alpha5
 projects[media_youtube][subdir] = contrib
 
-projects[menu_admin_per_menu][version] = 1.4
+projects[menu_admin_per_menu][version] = 1.0
 projects[menu_admin_per_menu][subdir] = contrib
 
-projects[menu_attributes][version] = 1.4
+projects[menu_attributes][version] = 1.0-rc1
 projects[menu_attributes][subdir] = contrib
 
-projects[menu_block][version] = 2.4
+projects[menu_block][version] = 2.2
 projects[menu_block][subdir] = contrib
 
-projects[menu_breadcrumb][version] = 1.3
-projects[menu_breadcrumb][subdir] = contrib
-
-projects[mimemail][version] = 1.0-beta1
-projects[mimemail][subdir] = contrib
-; http://drupal.org/node/1181486#comment-4570638 (fixes issue with recipient to address)
-projects[mimemail][patch][] = "http://drupal.org/files/issues/mimemail_1181486_01.patch"
-; http://drupal.org/node/1181486#comment-4595028 (fixes issue with sending email to user action)
-projects[mimemail][patch][] = "http://drupal.org/files/issues/mimemail_1181486_02.patch"
-
-projects[mp3player][version] = 1.1
-projects[mp3player][subdir] = contrib
-
-projects[nagios][version] = 1.0-beta1
-projects[nagios][subdir] = contrib
-
-projects[nice_menus][version] = 2.1
+projects[nice_menus][version] = 2.0-beta3
 projects[nice_menus][subdir] = contrib
 
-projects[node_export][version] = 2.24
-projects[node_export][subdir] = contrib
-
-projects[nodeblock][version] = 1.4
+projects[nodeblock][version] = 1.1
 projects[nodeblock][subdir] = contrib
-
-projects[nodereference_views][version] = 1.3
-projects[nodereference_views][subdir] = contrib
 
 projects[override_node_options][version] = 1.12
 projects[override_node_options][subdir] = contrib
 
-projects[page_title][version] = 2.3
+projects[page_title][version] = 2.5
 projects[page_title][subdir] = contrib
-
-projects[path_redirect][version] = 1.0-rc2
-projects[path_redirect][subdir] = contrib
 
 projects[pathauto][version] = 1.5
 projects[pathauto][subdir] = contrib
 
-projects[quicktabs][version] = 2.0-rc5
+projects[pathlogic][version] = 1.2
+projects[pathlogic][subdir] = contrib
+
+projects[quicktabs][version] = 3.0-beta1
 projects[quicktabs][subdir] = contrib
 
 projects[recaptcha][version] = 1.7
 projects[recaptcha][subdir] = contrib
 
-projects[revision_all][version] = 1.3
+projects[redirect][version] = 1.0-beta3
+projects[redirect][subdir] = contrib
+
+projects[revision_all][version] = 1.1
 projects[revision_all][subdir] = contrib
 
-projects[role_delegation][version] = 1.4
+; Captcha
+projects[riddler][version] = 1.2
+projects[riddler][subdir] = contrib
+
+projects[role_delegation][version] = 1.1
 projects[role_delegation][subdir] = contrib
 
-projects[rules][version] = 1.4
+projects[rules][version] = 2.0-beta2
 projects[rules][subdir] = contrib
-
-projects[securepages][version] = 1.8
-projects[securepages][subdir] = contrib
-
-projects[securesite][version] = 2.4
-projects[securesite][subdir] = contrib
 
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
-projects[strongarm][version] = 2.0
+projects[strongarm][version] = 2.0-beta2
 projects[strongarm][subdir] = contrib
 
-projects[taxonomy_delegate][version] = 1.3
-projects[taxonomy_delegate][subdir] = contrib
-; http://drupal.org/node/427616#comment-3847376 (allows admin to see all delgated vocabs and menu link)
-projects[taxonomy_delegate][patch][] = "http://drupal.org/files/issues/427616-taxonomy_delegate-admin_access-1.3_0.patch"
-
-projects[token][version] = 1.16
+projects[token][version] = 1.0-beta2
 projects[token][subdir] = contrib
 
-projects[user_delete][version] = 1.4
-projects[user_delete][subdir] = contrib
-
-projects[vertical_tabs][version] = 1.0-rc1
-projects[vertical_tabs][subdir] = contrib
-
-projects[viewfield][version] = 1.1
-projects[viewfield][subdir] = contrib
-
-projects[views][version] = 2.12
+projects[views][version] = 3.0-rc1
 projects[views][subdir] = contrib
-; http://drupal.org/node/348975#comment-3326458 (adds ability to clone a display)
-projects[views][patch][] = "http://drupal.org/files/issues/348975-clone-display.patch"
 
-projects[views_accordion][version] = 1.4
-projects[views_accordion][subdir] = contrib
-; http://drupal.org/node/439022 (fixes the nested views accordion issue)
-projects[views_accordion][patch][] = "http://drupal.org/files/issues/views_accordion-nested_accordion_fix-439022-13.patch"
-
-projects[views_bulk_operations][version] = 1.10
+projects[views_bulk_operations][version] = 3.0-alpha3
 projects[views_bulk_operations][subdir] = contrib
 
-projects[views_customfield][version] = 1.0
-projects[views_customfield][subdir] = contrib
-; http://drupal.org/node/1019000#comment-3917302 (lets you use tokens in phpcode custom field)
-projects[views_customfield][patch][] = "http://drupal.org/files/issues/views_customfield-phpcode-use-tokens-1019000-1.patch"
-
-projects[views_hacks][version] = 1.0-beta2
-projects[views_hacks][subdir] = contrib
-
-projects[views_slideshow][version] = 2.3
+projects[views_slideshow][version] = 3.0-alpha1
 projects[views_slideshow][subdir] = contrib
 
-projects[viewsdisplaytabs][version] = 1.0-beta6
-projects[viewsdisplaytabs][subdir] = contrib
-; http://drupal.org/node/824086 (only display tabs on displays that are checked)
-projects[viewsdisplaytabs][patch][] = "http://drupal.org/files/issues/current_display_enabled.patch"
-
-projects[uuid][version] = 1.0-beta2
+projects[uuid][version] = 1.0-alpha1
 projects[uuid][subdir] = contrib
 
 projects[uuid_features][version] = 1.0-alpha1
@@ -353,40 +199,19 @@ projects[uuid_features][subdir] = contrib
 projects[webform][version] = 3.11
 projects[webform][subdir] = contrib
 
-projects[webform_validation][version] = 1.4
+projects[webform_validation][version] = 1.0
 projects[webform_validation][subdir] = contrib
 
-projects[workflow][version] = 1.5
-projects[workflow][subdir] = contrib
+projects[workbench][version] = 1.0-beta6
+projects[workbench][subdir] = contrib
 
-; The exportables & features patch wysiwyg-624018-with-ui-4.patch requires version 2.2
-projects[wysiwyg][version] = 2.2
+projects[wysiwyg][version] = 2.1
 projects[wysiwyg][subdir] = contrib
-; http://drupal.org/node/624018#comment-3389060
-projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
-
-projects[wysiwyg_ckeditor_nice][type] = "module"
-projects[wysiwyg_ckeditor_nice][subdir] = "custom"
-projects[wysiwyg_ckeditor_nice][download][type] = "git"
-projects[wysiwyg_ckeditor_nice][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_nice"
-
-projects[wysiwyg_ckeditor_styles][type] = "module"
-projects[wysiwyg_ckeditor_styles][subdir] = "custom"
-projects[wysiwyg_ckeditor_styles][download][type] = "git"
-projects[wysiwyg_ckeditor_styles][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_styles"
-
-projects[wysiwyg_ckeditor_youtube][type] = "module"
-projects[wysiwyg_ckeditor_youtube][subdir] = "custom"
-projects[wysiwyg_ckeditor_youtube][download][type] = "git"
-projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_youtube"
 
 ;----------------------------------------
 ; themes
 ;----------------------------------------
 
-projects[fusion][version] = 1.1
+projects[fusion][version] = 1.0-alpha1
 
-projects[omega][version] = 1.0
-
-projects[seven][version] = 1.0-rc1 
-
+projects[omega][version] = 3.0-beta3
