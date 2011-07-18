@@ -113,6 +113,9 @@ projects[custom_search][subdir] = contrib
 projects[date][version] = 2.7
 projects[date][subdir] = contrib
 
+projects[deck][version] = 1.2
+projects[deck][subdir] = contrib
+
 projects[devel][version] = 1.24
 projects[devel][subdir] = contrib
 
