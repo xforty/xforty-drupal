@@ -24,6 +24,9 @@ dependencies[] = user
 
 ; Notable we are missing a few defaults like overlay, toolbar, shortcut, dashboard, more minimal
 
+; features
+dependencies[] = xforty_page
+
 ; Contrib
 dependencies[] = admin_menu
 ;dependencies[] = administerusersbyrole
