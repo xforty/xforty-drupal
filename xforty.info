@@ -17,19 +17,15 @@ dependencies[] = user
 
 ; Contrib
 dependencies[] = admin_menu
-dependencies[] = adminrole
 dependencies[] = advanced_help
 dependencies[] = config_perms
-dependencies[] = content
 dependencies[] = content_type_overview
 dependencies[] = ctools
 dependencies[] = date
 dependencies[] = date_api
 dependencies[] = date_popup
-dependencies[] = date_timezone
 dependencies[] = diff
 dependencies[] = features
-dependencies[] = fieldgroup
 dependencies[] = image_resize_filter
 dependencies[] = jquery_update
 dependencies[] = libraries
