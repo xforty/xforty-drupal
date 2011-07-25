@@ -207,6 +207,7 @@ projects[workbench][subdir] = contrib
 
 projects[wysiwyg][version] = 2.1
 projects[wysiwyg][subdir] = contrib
+; http://drupal.org/node/624018#comment-4718154 (Adds Feature support for WYSIWYG)
 projects[wysiwyg][patch][] = http://drupal.org/files/issues/wysiwyg-entity-exportables-624018-186.patch
 
 ;----------------------------------------
