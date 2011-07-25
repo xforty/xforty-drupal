@@ -37,6 +37,7 @@ dependencies[] = date
 dependencies[] = date_api
 dependencies[] = date_popup
 dependencies[] = diff
+dependencies[] = entity
 dependencies[] = features
 dependencies[] = image_resize_filter
 dependencies[] = jquery_update

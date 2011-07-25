@@ -207,6 +207,7 @@ projects[workbench][subdir] = contrib
 
 projects[wysiwyg][version] = 2.1
 projects[wysiwyg][subdir] = contrib
+projects[wysiwyg][patch][] = http://drupal.org/files/issues/wysiwyg-entity-exportables-624018-186.patch
 
 ;----------------------------------------
 ; themes
