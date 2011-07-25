@@ -60,9 +60,6 @@ projects[captcha][subdir] = contrib
 projects[config_perms][version] = 2.0
 projects[config_perms][subdir] = contrib
 
-projects[profile2][version] = 1.0-beta4
-projects[profile2][subdir] = contrib
-
 projects[content_type_overview][version] = 1.0-beta2
 projects[content_type_overview][subdir] = contrib
 
@@ -149,6 +146,9 @@ projects[pathauto][subdir] = contrib
 
 projects[pathologic][version] = 1.2
 projects[pathologic][subdir] = contrib
+
+projects[profile2][version] = 1.0-beta4
+projects[profile2][subdir] = contrib
 
 projects[quicktabs][version] = 3.0-beta1
 projects[quicktabs][subdir] = contrib
