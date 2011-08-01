@@ -68,7 +68,7 @@ projects[content_type_overview][subdir] = contrib
 projects[context][version] = 3.0-beta1
 projects[context][subdir] = contrib
 
-projects[ctools][version] = 1.0-beta1
+projects[ctools][version] = 1.0-rc1
 projects[ctools][subdir] = contrib
 
 projects[date][version] = 2.0-alpha3
