@@ -71,6 +71,9 @@ projects[context][subdir] = contrib
 projects[ctools][version] = 1.0-rc1
 projects[ctools][subdir] = contrib
 
+projects[custom_breadcrumbs][version] = 1.0-alpha1
+projects[custom_breadcrumbs][subdir] = contrib
+
 projects[date][version] = 2.0-alpha3
 projects[date][subdir] = contrib
 
