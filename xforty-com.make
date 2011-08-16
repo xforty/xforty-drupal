@@ -140,6 +140,9 @@ projects[nice_menus][subdir] = contrib
 projects[nodeblock][version] = 1.1
 projects[nodeblock][subdir] = contrib
 
+projects[omega_tools][version] = 3.0-rc2
+projects[omega_tools][subdir] = contrib
+
 projects[override_node_options][version] = 1.12
 projects[override_node_options][subdir] = contrib
 
@@ -167,7 +170,6 @@ projects[redirect][subdir] = contrib
 projects[revision_all][version] = 1.1
 projects[revision_all][subdir] = contrib
 
-; Captcha
 projects[riddler][version] = 1.2
 projects[riddler][subdir] = contrib
 
