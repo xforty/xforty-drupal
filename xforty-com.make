@@ -149,8 +149,6 @@ projects[exportables][patch][] = "http://drupal.org/files/issues/fix_enable_sync
 
 projects[features][version] = 1.0
 projects[features][subdir] = contrib
-; http://drupal.org/node/727266 -- doesn't support boxes very well
-projects[features][patch][] = "http://drupal.org/files/issues/features.block_.inc__0_0.patch"
 ; http://drupal.org/node/894572 -- Dependencies only features
 projects[features][patch][] = "http://drupal.org/files/issues/features_894572.patch"
 ; http://drupal.org/node/968826 (lets uuid menu link paths be recreated with the correct nid)
