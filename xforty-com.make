@@ -122,7 +122,7 @@ projects[date_repeat_fm][download][tag] = 6.x-1.0
 projects[deck][version] = 1.2
 projects[deck][subdir] = contrib
 
-projects[devel][version] = 1.24
+projects[devel][version] = 1.26
 projects[devel][subdir] = contrib
 
 projects[devel_themer][version] = 1.x-dev
