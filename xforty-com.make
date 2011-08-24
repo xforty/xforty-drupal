@@ -147,7 +147,7 @@ projects[exportables][version] = 2.0-beta1
 projects[exportables][subdir] = contrib
 projects[exportables][patch][] = "http://drupal.org/files/issues/fix_enable_sync.patch"
 
-projects[features][version] = 1.0
+projects[features][version] = 1.1
 projects[features][subdir] = contrib
 ; http://drupal.org/node/894572 -- Dependencies only features
 projects[features][patch][] = "http://drupal.org/files/issues/features_894572.patch"
