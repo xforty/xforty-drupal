@@ -128,7 +128,7 @@ projects[devel][subdir] = contrib
 projects[devel_themer][version] = 1.x-dev
 projects[devel_themer][subdir] = contrib
 
-projects[diff][version] = 2.1
+projects[diff][version] = 2.3
 projects[diff][subdir] = contrib
 
 projects[draggableviews][version] = 3.5
