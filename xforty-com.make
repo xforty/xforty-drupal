@@ -42,7 +42,7 @@ libraries[mp3player][destination] = "libraries"
 ; modules
 ;----------------------------------------
 
-projects[admin_menu][version] = 1.6
+projects[admin_menu][version] = 1.8
 projects[admin_menu][subdir] = contrib
 
 projects[administerusersbyrole][version] = 1.4
