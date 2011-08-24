@@ -397,7 +397,7 @@ projects[wysiwyg_ckeditor_youtube][download][url] = "git@scm.xforty.com:wysiwyg_
 ; themes
 ;----------------------------------------
 
-projects[fusion][version] = 1.1
+projects[fusion][version] = 1.12
 
 projects[omega][version] = 1.0
 
