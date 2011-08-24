@@ -272,7 +272,7 @@ projects[nodereference_views][subdir] = contrib
 projects[override_node_options][version] = 1.12
 projects[override_node_options][subdir] = contrib
 
-projects[page_title][version] = 2.3
+projects[page_title][version] = 2.5
 projects[page_title][subdir] = contrib
 
 projects[path_redirect][version] = 1.0-rc2
