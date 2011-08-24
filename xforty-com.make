@@ -207,10 +207,8 @@ projects[input_formats][subdir] = contrib
 projects[install_profile_api][version] = 2.1
 projects[install_profile_api][subdir] = contrib
 
-projects[jquery_ui][version] = 1.4
+projects[jquery_ui][version] = 1.5
 projects[jquery_ui][subdir] = contrib
-; http://drupal.org/node/489140 (adds Libraries API support)
-projects[jquery_ui][patch][] = "http://drupal.org/files/issues/jquery_ui_489140_37.patch"
 ; http://drupal.org/node/654090 (adds jQuery UI Loader module)
 projects[jquery_ui][patch][] = "http://drupal.org/files/issues/jquery_ui-loader-654090-after-patch-489140.patch"
 
