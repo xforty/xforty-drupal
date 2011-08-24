@@ -363,7 +363,7 @@ projects[viewsdisplaytabs][subdir] = contrib
 ; http://drupal.org/node/824086 (only display tabs on displays that are checked)
 projects[viewsdisplaytabs][patch][] = "http://drupal.org/files/issues/current_display_enabled.patch"
 
-projects[webform][version] = 3.11
+projects[webform][version] = 3.12
 projects[webform][subdir] = contrib
 
 projects[webform_validation][version] = 1.4
