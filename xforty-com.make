@@ -101,7 +101,7 @@ projects[content_type_overview][subdir] = contrib
 projects[context][version] = 3.0
 projects[context][subdir] = contrib
 
-projects[cmf][version] = 2.01
+projects[cmf][version] = 2.1
 projects[cmf][subdir] = contrib
 
 projects[ctm][version] = 1.1
