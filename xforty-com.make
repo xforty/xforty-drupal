@@ -137,7 +137,7 @@ projects[menu_block][subdir] = contrib
 projects[nice_menus][version] = 2.0
 projects[nice_menus][subdir] = contrib
 
-projects[nodeblock][version] = 1.1
+projects[nodeblock][version] = 1.2
 projects[nodeblock][subdir] = contrib
 
 projects[omega_tools][version] = 3.0-rc2
