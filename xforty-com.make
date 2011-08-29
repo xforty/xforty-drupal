@@ -134,7 +134,7 @@ projects[menu_attributes][subdir] = contrib
 projects[menu_block][version] = 2.2
 projects[menu_block][subdir] = contrib
 
-projects[nice_menus][version] = 2.0-beta3
+projects[nice_menus][version] = 2.0
 projects[nice_menus][subdir] = contrib
 
 projects[nodeblock][version] = 1.1
