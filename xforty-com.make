@@ -89,6 +89,11 @@ projects[cck][subdir] = contrib
 projects[checkbox_validate][version] = 2.1
 projects[checkbox_validate][subdir] = contrib
 
+projects[cmf][version] = 2.1
+projects[cmf][subdir] = contrib
+; http://drupal.org/node/1210942#comment-4928520 (filter by edit access)
+projects[cmf][patch][] = http://drupal.org/files/issues/filter_by_edit_access-1210942-3.patch
+
 projects[config_perms][version] = 2.0
 projects[config_perms][subdir] = contrib
 
@@ -100,9 +105,6 @@ projects[content_type_overview][subdir] = contrib
 
 projects[context][version] = 3.0
 projects[context][subdir] = contrib
-
-projects[cmf][version] = 2.1
-projects[cmf][subdir] = contrib
 
 projects[ctm][version] = 1.1
 projects[ctm][subdir] = contrib
