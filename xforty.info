@@ -65,6 +65,7 @@ dependencies[] = role_delegation
 dependencies[] = strongarm
 dependencies[] = text
 dependencies[] = token
+dependencies[] = update_advanced
 dependencies[] = user_delete
 dependencies[] = user_settings_access
 dependencies[] = views
