@@ -302,7 +302,7 @@ projects[role_delegation][subdir] = contrib
 projects[rules][version] = 1.4
 projects[rules][subdir] = contrib
 
-projects[securepages][version] = 1.8
+projects[securepages][version] = 1.9
 projects[securepages][subdir] = contrib
 
 projects[securesite][version] = 2.4
