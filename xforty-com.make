@@ -168,7 +168,7 @@ projects[feeds][subdir] = contrib
 projects[filefield][version] = 3.10
 projects[filefield][subdir] = contrib
 
-projects[fontyourface][version] = 2.6
+projects[fontyourface][version] = 2.8
 projects[fontyourface][subdir] = contrib
 
 projects[globalredirect][version] = 1.2
