@@ -324,9 +324,6 @@ projects[taxonomy_delegate][patch][] = "http://drupal.org/files/issues/427616-ta
 projects[token][version] = 1.16
 projects[token][subdir] = contrib
 
-projects[update_advanced][version] = 1.1
-projects[update_advanced][subdir] = contrib
-
 projects[user_delete][version] = 1.4
 projects[user_delete][subdir] = contrib
 
@@ -344,6 +341,9 @@ projects[vertical_tabs][subdir] = contrib
 
 projects[viewfield][version] = 1.1
 projects[viewfield][subdir] = contrib
+
+projects[viewreference][version] = 3.5
+projects[viewreference][subdir] = contrib
 
 projects[views][version] = 2.12
 projects[views][subdir] = contrib
