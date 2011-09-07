@@ -160,7 +160,7 @@ projects[features][patch][] = "http://drupal.org/files/issues/features_894572.pa
 ; http://drupal.org/node/968826 (lets uuid menu link paths be recreated with the correct nid)
 projects[features][patch][] = "http://drupal.org/files/issues/uuid_features-menu_links-968826.patch"
 
-projects[feeds][version] = 1.0-beta10
+projects[feeds][version] = 1.0-beta11
 projects[feeds][subdir] = contrib
 
 projects[filefield][version] = 3.10
