@@ -287,7 +287,7 @@ projects[path_redirect][subdir] = contrib
 projects[pathauto][version] = 1.5
 projects[pathauto][subdir] = contrib
 
-projects[quicktabs][version] = 2.0-rc5
+projects[quicktabs][version] = 3.0
 projects[quicktabs][subdir] = contrib
 
 projects[recaptcha][version] = 1.7
