@@ -340,7 +340,7 @@ projects[uuid_features][subdir] = contrib
 projects[vertical_tabs][version] = 1.0-rc2
 projects[vertical_tabs][subdir] = contrib
 
-projects[viewfield][version] = 1.1
+projects[viewfield][version] = 1.2
 projects[viewfield][subdir] = contrib
 
 projects[viewreference][version] = 3.5
