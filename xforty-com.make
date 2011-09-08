@@ -1,9 +1,10 @@
 api = 2
 core = 6.x
 
+projects[drupal][type] = core
 projects[drupal][version] = 6.22
+projects[drupal][patch][] = http://drupal.org/files/issues/0001-Issue-1173012-by-carlos8f-Blocks-disappear-after-cor_1.patch
 # http://drupal.org/node/1173012#comment-4700370
-projects[drupal][patch][] = "http://drupal.org/files/issues/0001-Issue-1173012-by-carlos8f-Blocks-disappear-after-cor_1.patch"
 
 ;----------------------------------------
 ; features
