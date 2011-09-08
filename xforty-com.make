@@ -308,6 +308,9 @@ projects[securepages][subdir] = contrib
 projects[securesite][version] = 2.4
 projects[securesite][subdir] = contrib
 
+projects[site_map][version] = 2.2
+projects[site_map][subdir] = contrib
+
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
