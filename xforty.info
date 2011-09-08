@@ -74,3 +74,6 @@ dependencies[] = vertical_tabs
 dependencies[] = webform
 dependencies[] = webform_validation
 dependencies[] = wysiwyg
+
+; Variables
+variables[update_advanced_check_disabled] = 1
