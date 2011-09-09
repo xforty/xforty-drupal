@@ -275,6 +275,9 @@ projects[node_export][subdir] = contrib
 projects[nodeblock][version] = 1.4
 projects[nodeblock][subdir] = contrib
 
+projects[nodeformsettings][version] = 2.0
+projects[nodeformsettings][subdir] = contrib
+
 projects[nodereference_views][version] = 1.3
 projects[nodereference_views][subdir] = contrib
 

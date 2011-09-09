@@ -54,6 +54,7 @@ dependencies[] = link
 dependencies[] = menu_block
 dependencies[] = nice_menus
 dependencies[] = nodeblock
+dependencies[] = nodeformsettings
 dependencies[] = number
 dependencies[] = optionwidgets
 dependencies[] = override_node_options
