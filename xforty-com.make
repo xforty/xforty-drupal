@@ -390,6 +390,9 @@ projects[webform][subdir] = contrib
 projects[webform_validation][version] = 1.4
 projects[webform_validation][subdir] = contrib
 
+projects[weight][version] = 1.0
+projects[weight][subdir] = contrib
+
 projects[workflow][version] = 1.5
 projects[workflow][subdir] = contrib
 

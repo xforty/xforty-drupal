@@ -74,6 +74,7 @@ dependencies[] = views_ui
 dependencies[] = vertical_tabs
 dependencies[] = webform
 dependencies[] = webform_validation
+dependencies[] = weight
 dependencies[] = wysiwyg
 
 ; Variables
