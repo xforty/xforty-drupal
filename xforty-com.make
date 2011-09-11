@@ -151,6 +151,8 @@ projects[email][subdir] = contrib
 
 projects[emfield][version] = 2.5
 projects[emfield][subdir] = contrib
+; http://drupal.org/node/398400#comment-4689226 (fixes array_merge() warning on line 163)
+projects[emfield][patch][] = http://drupal.org/files/issues/398400-49.patch
 
 projects[exportables][version] = 2.0-beta1
 projects[exportables][subdir] = contrib
@@ -277,6 +279,9 @@ projects[nodeblock][subdir] = contrib
 
 projects[nodeformsettings][version] = 2.0
 projects[nodeformsettings][subdir] = contrib
+
+projects[nodequeue][version] = 2.10
+projects[nodequeue][subdir] = contrib
 
 projects[nodereference_views][version] = 1.3
 projects[nodereference_views][subdir] = contrib
