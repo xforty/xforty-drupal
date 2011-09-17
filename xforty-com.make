@@ -209,11 +209,17 @@ projects[imce][subdir] = contrib
 projects[imce_crop][version] = 1.1
 projects[imce_crop][subdir] = contrib
 
+projects[imce_tools][version] = 1.1
+projects[imce_tools][subdir] = contrib
+
 projects[imce_wysiwyg][version] = 1.1
 projects[imce_wysiwyg][subdir] = contrib
 
 projects[input_formats][version] = 1.0-beta6
 projects[input_formats][subdir] = contrib
+
+projects[insert][version] = 1.1
+projects[insert][subdir] = contrib
 
 projects[install_profile_api][version] = 2.1
 projects[install_profile_api][subdir] = contrib
