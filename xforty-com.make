@@ -331,6 +331,9 @@ projects[site_map][subdir] = contrib
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
+projects[special_menu_items][version] = 1.6
+projects[special_menu_items][subdir] = contrib
+
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
 
