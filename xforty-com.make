@@ -246,6 +246,8 @@ projects[link][subdir] = contrib
 projects[link][patch][] = "http://drupal.org/files/issues/link-absolute_formatter-1066328-3.patch"
 ; http://drupal.org/node/1053908#comment-4059760 (advanced help integration)
 projects[link][patch][] = "http://drupal.org/files/issues/link-1053908.patch"
+; http://drupal.org/node/1238808 (fixes #! in urls - twitter)
+projects[link][patch][] = http://drupal.org/files/issues/link_hash_bang.patch
 
 projects[location][version] = 3.1
 projects[location][subdir] = contrib
