@@ -288,7 +288,7 @@ projects[nodeblock][subdir] = contrib
 projects[nodeformsettings][version] = 2.0
 projects[nodeformsettings][subdir] = contrib
 
-projects[nodequeue][version] = 2.10
+projects[nodequeue][version] = 2.11
 projects[nodequeue][subdir] = contrib
 
 projects[nodereference_views][version] = 1.3
