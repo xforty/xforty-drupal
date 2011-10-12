@@ -376,10 +376,8 @@ projects[views][subdir] = contrib
 ; http://drupal.org/node/348975#comment-3326458 (adds ability to clone a display)
 projects[views][patch][] = "http://drupal.org/files/issues/348975-clone-display.patch"
 
-projects[views_accordion][version] = 1.4
+projects[views_accordion][version] = 1.5
 projects[views_accordion][subdir] = contrib
-; http://drupal.org/node/439022 (fixes the nested views accordion issue)
-projects[views_accordion][patch][] = "http://drupal.org/files/issues/views_accordion-nested_accordion_fix-439022-13.patch"
 
 projects[views_bulk_operations][version] = 1.10
 projects[views_bulk_operations][subdir] = contrib
