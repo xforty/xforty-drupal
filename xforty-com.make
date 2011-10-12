@@ -273,7 +273,7 @@ projects[mimemail][subdir] = contrib
 projects[mp3player][version] = 1.1
 projects[mp3player][subdir] = contrib
 
-projects[nagios][version] = 1.0-beta1
+projects[nagios][version] = 1.0
 projects[nagios][subdir] = contrib
 
 projects[nice_menus][version] = 2.1
