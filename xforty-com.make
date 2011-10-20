@@ -206,7 +206,7 @@ projects[image_resize_filter][subdir] = contrib
 projects[imce][version] = 2.3
 projects[imce][subdir] = contrib
 
-projects[imce_crop][version] = 1.1
+projects[imce_crop][version] = 1.2
 projects[imce_crop][subdir] = contrib
 
 projects[imce_tools][version] = 1.1
