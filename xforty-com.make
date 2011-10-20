@@ -203,7 +203,7 @@ projects[imagefield][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 projects[image_resize_filter][subdir] = contrib
 
-projects[imce][version] = 2.2
+projects[imce][version] = 2.3
 projects[imce][subdir] = contrib
 
 projects[imce_crop][version] = 1.1
