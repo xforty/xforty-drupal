@@ -379,7 +379,7 @@ projects[views][patch][] = "http://drupal.org/files/issues/348975-clone-display.
 projects[views_accordion][version] = 1.5
 projects[views_accordion][subdir] = contrib
 
-projects[views_bulk_operations][version] = 1.11
+projects[views_bulk_operations][version] = 1.12
 projects[views_bulk_operations][subdir] = contrib
 
 projects[views_customfield][version] = 1.0
