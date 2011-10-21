@@ -416,6 +416,11 @@ projects[wysiwyg][subdir] = contrib
 ; http://drupal.org/node/624018#comment-3389060
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
 
+projects[wysiwyg_ckeditor_css][type] = "module"
+projects[wysiwyg_ckeditor_css][subdir] = "custom"
+projects[wysiwyg_ckeditor_css][download][type] = "git"
+projects[wysiwyg_ckeditor_css][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_css"
+
 projects[wysiwyg_ckeditor_nice][type] = "module"
 projects[wysiwyg_ckeditor_nice][subdir] = "custom"
 projects[wysiwyg_ckeditor_nice][download][type] = "git"
