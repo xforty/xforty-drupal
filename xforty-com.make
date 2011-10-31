@@ -374,7 +374,9 @@ projects[viewreference][subdir] = contrib
 projects[views][version] = 2.12
 projects[views][subdir] = contrib
 ; http://drupal.org/node/348975#comment-3326458 (adds ability to clone a display)
-projects[views][patch][] = "http://drupal.org/files/issues/348975-clone-display.patch"
+projects[views][patch][] = http://drupal.org/files/issues/348975-clone-display.patch
+; http://drupal.org/node/951494#comment-5183866 (fix IE error in base.js)
+projects[views][patch][] = http://drupal.org/files/base.js_ie_error-951494-6.patch
 
 projects[views_accordion][version] = 1.5
 projects[views_accordion][subdir] = contrib
