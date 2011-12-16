@@ -404,7 +404,7 @@ projects[viewsdisplaytabs][patch][] = "http://drupal.org/files/issues/current_di
 projects[webform][version] = 3.14
 projects[webform][subdir] = contrib
 
-projects[webform_validation][version] = 1.4
+projects[webform_validation][version] = 1.5
 projects[webform_validation][subdir] = contrib
 
 projects[weight][version] = 1.1
