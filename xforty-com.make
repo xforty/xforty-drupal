@@ -42,7 +42,7 @@ libraries[tinymce][destination] = libraries
 projects[admin_menu][version] = 3.0-rc1
 projects[admin_menu][subdir] = contrib
 
-projects[advanced_help][version] = 1.0-beta1
+projects[advanced_help][version] = 1.0
 projects[advanced_help][subdir] = contrib
 
 projects[auto_nodetitle][version] = 1.0
@@ -116,7 +116,7 @@ projects[jquery_update][subdir] = contrib
 projects[libraries][version] = 1.0
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.0-alpha3
+projects[link][version] = 1.0
 projects[link][subdir] = contrib
 
 projects[media][version] = 1.0-beta5
@@ -149,7 +149,7 @@ projects[override_node_options][subdir] = contrib
 projects[page_title][version] = 2.5
 projects[page_title][subdir] = contrib
 
-projects[pathauto][version] = 1.0-rc2
+projects[pathauto][version] = 1.0
 projects[pathauto][subdir] = contrib
 
 projects[pathologic][version] = 1.2
@@ -164,7 +164,7 @@ projects[quicktabs][subdir] = contrib
 projects[recaptcha][version] = 1.7
 projects[recaptcha][subdir] = contrib
 
-projects[redirect][version] = 1.0-beta3
+projects[redirect][version] = 1.0-beta4
 projects[redirect][subdir] = contrib
 
 projects[revision_all][version] = 1.1
@@ -185,19 +185,19 @@ projects[site_map][subdir] = contrib
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
-projects[strongarm][version] = 2.0-beta2
+projects[strongarm][version] = 2.0-beta5
 projects[strongarm][subdir] = contrib
 
-projects[token][version] = 1.0-beta2
+projects[token][version] = 1.0-beta7
 projects[token][subdir] = contrib
 
-projects[views][version] = 3.0-rc1
+projects[views][version] = 3.0
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.0-alpha3
 projects[views_bulk_operations][subdir] = contrib
 
-projects[views_slideshow][version] = 3.0-alpha1
+projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = contrib
 
 projects[uuid][version] = 1.0-alpha1
@@ -206,13 +206,13 @@ projects[uuid][subdir] = contrib
 projects[uuid_features][version] = 1.0-alpha1
 projects[uuid_features][subdir] = contrib
 
-projects[webform][version] = 3.11
+projects[webform][version] = 3.15
 projects[webform][subdir] = contrib
 
-projects[webform_validation][version] = 1.0
+projects[webform_validation][version] = 1.1
 projects[webform_validation][subdir] = contrib
 
-projects[workbench][version] = 1.0-beta6
+projects[workbench][version] = 1.1
 projects[workbench][subdir] = contrib
 
 projects[wysiwyg][version] = 2.1
@@ -226,4 +226,4 @@ projects[wysiwyg][patch][] = http://drupal.org/files/issues/wysiwyg-entity-expor
 
 projects[fusion][version] = 1.0-alpha1
 
-projects[omega][version] = 3.0-beta3
+projects[omega][version] = 3.0
