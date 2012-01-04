@@ -77,7 +77,7 @@ projects[custom_breadcrumbs][subdir] = contrib
 projects[date][version] = 2.0-alpha3
 projects[date][subdir] = contrib
 
-projects[devel][version] = 1.0
+projects[devel][version] = 1.2
 projects[devel][subdir] = contrib
 
 projects[devel_themer][version] = 1.x-dev
