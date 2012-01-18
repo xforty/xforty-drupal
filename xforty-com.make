@@ -7,10 +7,6 @@ projects[drupal][version] = 7.10
 ; features
 ;----------------------------------------
 
-projects[xforty_page][location] = http://code.xforty.com/fserver
-projects[xforty_page][version] = 1.0
-projects[xforty_page][subdir] = contrib
-
 ;----------------------------------------
 ; libraries
 ;----------------------------------------
