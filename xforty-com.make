@@ -47,7 +47,7 @@ projects[auto_nodetitle][subdir] = contrib
 projects[backup_migrate][version] = 2.2
 projects[backup_migrate][subdir] = contrib
 
-projects[calendar][version] = 2.0-alpha1
+projects[calendar][version] = 3.0-alpha2
 projects[calendar][subdir] = contrib
 
 projects[captcha][version] = 1.0-alpha3
