@@ -172,7 +172,7 @@ projects[role_delegation][subdir] = contrib
 projects[rules][version] = 2.0
 projects[rules][subdir] = contrib
 
-projects[site_map][version] = 1.0-beta1
+projects[site_map][version] = 1.0
 projects[site_map][subdir] = contrib
 
 projects[site_verify][version] = 1.0
