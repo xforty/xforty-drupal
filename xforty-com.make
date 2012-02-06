@@ -184,7 +184,7 @@ projects[strongarm][subdir] = contrib
 projects[token][version] = 1.0-rc1
 projects[token][subdir] = contrib
 
-projects[views][version] = 3.0
+projects[views][version] = 3.1
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.0-alpha3
