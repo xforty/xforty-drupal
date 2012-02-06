@@ -217,6 +217,6 @@ projects[wysiwyg][patch][] = http://drupal.org/files/issues/wysiwyg-entity-expor
 ; themes
 ;----------------------------------------
 
-projects[fusion][version] = 1.0-alpha1
+projects[fusion][version] = 2.0-beta1
 
 projects[omega][version] = 3.0
