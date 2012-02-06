@@ -181,7 +181,7 @@ projects[site_verify][subdir] = contrib
 projects[strongarm][version] = 2.0-beta5
 projects[strongarm][subdir] = contrib
 
-projects[token][version] = 1.0-beta7
+projects[token][version] = 1.0-rc1
 projects[token][subdir] = contrib
 
 projects[views][version] = 3.0
