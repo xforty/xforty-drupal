@@ -61,7 +61,7 @@ projects[config_perms][patch][] = http://drupal.org/files/issues/invalid_arg_dur
 projects[content_type_overview][version] = 1.0-beta2
 projects[content_type_overview][subdir] = contrib
 
-projects[context][version] = 3.0-beta1
+projects[context][version] = 3.0-beta2
 projects[context][subdir] = contrib
 
 projects[ctools][version] = 1.0-rc1
