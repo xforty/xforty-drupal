@@ -50,7 +50,7 @@ projects[backup_migrate][subdir] = contrib
 projects[calendar][version] = 3.0-alpha2
 projects[calendar][subdir] = contrib
 
-projects[captcha][version] = 1.0-alpha3
+projects[captcha][version] = 1.0-beta2
 projects[captcha][subdir] = contrib
 
 projects[config_perms][version] = 2.0
