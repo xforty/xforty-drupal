@@ -169,7 +169,7 @@ projects[riddler][subdir] = contrib
 projects[role_delegation][version] = 1.1
 projects[role_delegation][subdir] = contrib
 
-projects[rules][version] = 2.0-beta2
+projects[rules][version] = 2.0
 projects[rules][subdir] = contrib
 
 projects[site_map][version] = 1.0-beta1
