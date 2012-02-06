@@ -100,7 +100,7 @@ projects[fontyourface][subdir] = contrib
 projects[google_analytics][version] = 1.2
 projects[google_analytics][subdir] = contrib
 
-projects[image_resize_filter][version] = 1.12
+projects[image_resize_filter][version] = 1.13
 projects[image_resize_filter][subdir] = contrib
 
 projects[jquery_update][version] = 2.2
