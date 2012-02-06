@@ -193,7 +193,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = contrib
 
-projects[uuid][version] = 1.0-alpha1
+projects[uuid][version] = 1.0-alpha3
 projects[uuid][subdir] = contrib
 
 projects[uuid_features][version] = 1.0-alpha1
