@@ -82,9 +82,6 @@ projects[devel_themer][subdir] = contrib
 projects[diff][version] = 2.0-beta2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 1.2
-projects[ds][subdir] = contrib
-
 projects[entity][version] = 1.0-beta10
 projects[entity][subdir] = contrib
 
