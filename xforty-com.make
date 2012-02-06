@@ -85,7 +85,7 @@ projects[diff][subdir] = contrib
 projects[entity][version] = 1.0-beta10
 projects[entity][subdir] = contrib
 
-projects[email][version] = 1.0-beta1
+projects[email][version] = 1.0
 projects[email][subdir] = contrib
 
 projects[features][version] = 1.0-beta3
