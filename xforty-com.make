@@ -79,7 +79,7 @@ projects[devel][subdir] = contrib
 projects[devel_themer][version] = 1.x-dev
 projects[devel_themer][subdir] = contrib
 
-projects[diff][version] = 2.0-beta2
+projects[diff][version] = 2.0
 projects[diff][subdir] = contrib
 
 projects[entity][version] = 1.0-rc1
