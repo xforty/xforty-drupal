@@ -124,7 +124,7 @@ projects[menu_admin_per_menu][subdir] = contrib
 projects[menu_attributes][version] = 1.0-rc1
 projects[menu_attributes][subdir] = contrib
 
-projects[menu_block][version] = 2.2
+projects[menu_block][version] = 2.3
 projects[menu_block][subdir] = contrib
 
 projects[nice_menus][version] = 2.0
