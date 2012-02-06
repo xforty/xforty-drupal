@@ -88,7 +88,7 @@ projects[entity][subdir] = contrib
 projects[email][version] = 1.0
 projects[email][subdir] = contrib
 
-projects[features][version] = 1.0-beta3
+projects[features][version] = 1.0-beta6
 projects[features][subdir] = contrib
 
 projects[feeds][version] = 2.0-alpha4
