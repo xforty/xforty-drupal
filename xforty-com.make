@@ -151,7 +151,7 @@ projects[pathologic][subdir] = contrib
 projects[profile2][version] = 1.2
 projects[profile2][subdir] = contrib
 
-projects[quicktabs][version] = 3.0-beta1
+projects[quicktabs][version] = 3.3
 projects[quicktabs][subdir] = contrib
 
 projects[recaptcha][version] = 1.7
