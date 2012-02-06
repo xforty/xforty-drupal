@@ -94,7 +94,7 @@ projects[features][subdir] = contrib
 projects[feeds][version] = 2.0-alpha4
 projects[feeds][subdir] = contrib
 
-projects[fontyourface][version] = 1.3
+projects[fontyourface][version] = 2.0
 projects[fontyourface][subdir] = contrib
 
 projects[google_analytics][version] = 1.2
