@@ -145,7 +145,7 @@ projects[page_title][subdir] = contrib
 projects[pathauto][version] = 1.0
 projects[pathauto][subdir] = contrib
 
-projects[pathologic][version] = 1.2
+projects[pathologic][version] = 1.4
 projects[pathologic][subdir] = contrib
 
 projects[profile2][version] = 1.0
