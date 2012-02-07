@@ -16,11 +16,6 @@ libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profil
 libraries[profiler][directory_name] = profiler
 libraries[profiler][destination] = libraries
 
-libraries[jquery_ui][download][type] = get
-libraries[jquery_ui][download][url] = http://jquery-ui.googlecode.com/files/jquery.ui-1.6.zip
-libraries[jquery_ui][directory_name] = jquery.ui
-libraries[jquery_ui][destination] = libraries
-
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.2/ckeditor_3.2.tar.gz
 libraries[ckeditor][directory_name] = ckeditor
