@@ -71,7 +71,9 @@ projects[date][subdir] = contrib
 projects[devel][version] = 1.2
 projects[devel][subdir] = contrib
 
-projects[devel_themer][version] = 1.x-dev
+; From a dev version of the 7.x-1.x branch (02/07/2012)
+projects[devel_themer][download][type] = file
+projects[devel_themer][download][url] = http://drupalcode.org/project/devel_themer.git/snapshot/93fa94d46186703c86b96dcd09a17980f045eeff.tar.gz
 projects[devel_themer][subdir] = contrib
 
 projects[diff][version] = 2.0
