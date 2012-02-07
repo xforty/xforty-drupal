@@ -92,6 +92,9 @@ projects[features][subdir] = contrib
 projects[feeds][version] = 2.0-alpha4
 projects[feeds][subdir] = contrib
 
+projects[field_permissions][version] = 1.0-beta2
+projects[field_permissions][subdir] = contrib
+
 projects[fontyourface][version] = 2.0
 projects[fontyourface][subdir] = contrib
 
