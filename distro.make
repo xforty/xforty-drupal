@@ -46,7 +46,7 @@ includes[] = http://github.com/xforty/xforty-drupal/raw/7.x/xforty-com.make
 ; download branch line and un-comment out the download tag line.
 projects[xforty][type] = profile
 projects[xforty][download][type] = git
-projects[xforty][download][url] = git@github.com:xforty/xforty-drupal.git
+projects[xforty][download][url] = git://github.com/xforty/xforty-drupal.git
 projects[xforty][download][branch] = 7.x
 ;projects[xforty][download][tag] = {TAG}
 
