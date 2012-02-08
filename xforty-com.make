@@ -22,7 +22,7 @@ libraries[ckeditor][directory_name] = ckeditor
 libraries[ckeditor][destination] = libraries
 
 libraries[tinymce][download][type] = get
-libraries[tinymce][download][url] = http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip
+libraries[tinymce][download][url] = http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.4.8.zip
 libraries[tinymce][directory_name] = tinymce
 libraries[tinymce][destination] = libraries
 
