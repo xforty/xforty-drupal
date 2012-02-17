@@ -7,6 +7,10 @@ projects[drupal][version] = 7.12
 projects[drupal][patch][] = http://drupal.org/files/undefined_function_during_install-1371216-3.patch
 ; http://drupal.org/node/1357072#comment-5600632 (fixes undefined function for image.install)
 projects[drupal][patch][] = http://drupal.org/files/undefined_function_during_upgrade-1357072-4.patch
+; http://drupal.org/node/1237252#comment-4901974 (allow binary attribute in mysql)
+projects[drupal][patch][] = http://drupal.org/files/issues/db_1237252.patch
+; http://drupal.org/node/966210#comment-4963508 (adds binary attribute to file_managed table)
+projects[drupal][patch][] = http://drupal.org/files/issues/files_966210-D7.patch
 
 ;----------------------------------------
 ; features
