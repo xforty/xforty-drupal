@@ -174,6 +174,8 @@ projects[quicktabs][version] = 3.3
 projects[quicktabs][subdir] = contrib
 ; http://drupal.org/node/1444418#comment-5616604 (fix default style field error)
 projects[quicktabs][patch][] = http://drupal.org/files/default_style-1444418-1.patch
+; http://drupal.org/node/1444376#comment-5616394 (fix unknown renderer column on upgrade)
+projects[quicktabs][patch][] = http://drupal.org/files/unknown_column_renderer-1444376-1.patch
 
 projects[recaptcha][version] = 1.7
 projects[recaptcha][subdir] = contrib
