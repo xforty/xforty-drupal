@@ -146,7 +146,7 @@ projects[menu_attributes][subdir] = contrib
 projects[menu_block][version] = 2.3
 projects[menu_block][subdir] = contrib
 
-projects[nice_menus][version] = 2.0
+projects[nice_menus][version] = 2.1
 projects[nice_menus][subdir] = contrib
 
 projects[nodeblock][version] = 1.2
@@ -207,7 +207,7 @@ projects[strongarm][subdir] = contrib
 projects[token][version] = 1.0-rc1
 projects[token][subdir] = contrib
 
-projects[views][version] = 3.1
+projects[views][version] = 3.3
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.0-beta3
