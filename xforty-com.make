@@ -53,7 +53,7 @@ projects[backup_migrate][subdir] = contrib
 ; http://drupal.org/node/1224948#comment-4760926 (Fixes typo in backup_migrate_update_7200())
 projects[backup_migrate][patch][] = http://drupal.org/files/issues/var-name-typo-1224948-1.patch
 
-projects[calendar][version] = 3.0-alpha2
+projects[calendar][version] = 3.0
 projects[calendar][subdir] = contrib
 
 projects[captcha][version] = 1.0-beta2
