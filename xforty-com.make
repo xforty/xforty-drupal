@@ -78,11 +78,11 @@ projects[ctools][subdir] = contrib
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
 
-projects[date_ical][version] = 1.0
-projects[date_ical][subdir] = contrib
-
 projects[date][version] = 2.2
 projects[date][subdir] = contrib
+
+projects[date_ical][version] = 1.0
+projects[date_ical][subdir] = contrib
 
 projects[devel][version] = 1.2
 projects[devel][subdir] = contrib
