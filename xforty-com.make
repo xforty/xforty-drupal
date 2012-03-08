@@ -210,6 +210,9 @@ projects[strongarm][subdir] = contrib
 projects[token][version] = 1.0-rc1
 projects[token][subdir] = contrib
 
+projects[variable][version] = 1.1
+projects[variable][subdir] = contrib
+
 projects[views][version] = 3.3
 projects[views][subdir] = contrib
 
