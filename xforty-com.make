@@ -228,7 +228,7 @@ projects[uuid][subdir] = contrib
 projects[uuid_features][version] = 1.0-alpha1
 projects[uuid_features][subdir] = contrib
 
-projects[webform][version] = 3.15
+projects[webform][version] = 3.17
 projects[webform][subdir] = contrib
 
 projects[webform_validation][version] = 1.1
