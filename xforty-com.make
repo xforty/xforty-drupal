@@ -30,6 +30,12 @@ libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEdi
 libraries[ckeditor][directory_name] = ckeditor
 libraries[ckeditor][destination] = libraries
 
+libraries[jquery_cycle][download][type] = get
+libraries[jquery_cycle][download][url] = https://github.com/downloads/malsup/cycle/jquery.cycle.all.2.88.min.js
+libraries[jquery_cycle][download][filename] = jquery.cycle.all.min.js
+libraries[jquery_cycle][directory_name] = jquery.cycle
+libraries[jquery_cycle][destination] = libraries
+
 libraries[tinymce][download][type] = get
 libraries[tinymce][download][url] = http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.4.8.zip
 libraries[tinymce][directory_name] = tinymce
