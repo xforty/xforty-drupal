@@ -110,7 +110,7 @@ projects[entity][subdir] = contrib
 projects[email][version] = 1.0
 projects[email][subdir] = contrib
 
-projects[entityreference][version] = 1.0-beta5
+projects[entityreference][version] = 1.0-rc1
 projects[entityreference][subdir] = contrib
 
 projects[features][version] = 1.0-beta6
