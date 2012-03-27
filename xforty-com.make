@@ -269,4 +269,4 @@ projects[wysiwyg][patch][] = http://drupal.org/files/issues/wysiwyg-entity-expor
 
 projects[fusion][version] = 2.0-beta1
 
-projects[omega][version] = 3.0
+projects[omega][version] = 3.1
