@@ -164,7 +164,7 @@ projects[nice_menus][subdir] = contrib
 projects[nodeblock][version] = 1.2
 projects[nodeblock][subdir] = contrib
 
-projects[omega_tools][version] = 3.0-rc3
+projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][subdir] = contrib
 
 projects[override_node_options][version] = 1.12
