@@ -78,7 +78,7 @@ projects[context][subdir] = contrib
 ; http://drupal.org/node/1270730#comment-5040872 (Fixes Call to undefined function context_load())
 projects[context][patch][] = http://drupal.org/files/issues/1270730-context-d7-upgrade-undefined-context_load.patch
 
-projects[ctools][version] = 1.0-rc2
+projects[ctools][version] = 1.0
 projects[ctools][subdir] = contrib
 
 projects[custom_breadcrumbs][version] = 1.0-alpha1
