@@ -158,6 +158,9 @@ projects[menu_attributes][subdir] = contrib
 projects[menu_block][version] = 2.3
 projects[menu_block][subdir] = contrib
 
+projects[menu_position][version] = 1.1
+projects[menu_position][subdir] = contrib
+
 projects[nice_menus][version] = 2.1
 projects[nice_menus][subdir] = contrib
 
