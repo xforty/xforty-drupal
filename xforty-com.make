@@ -185,7 +185,7 @@ projects[pathologic][subdir] = contrib
 projects[profile2][version] = 1.2
 projects[profile2][subdir] = contrib
 
-projects[quicktabs][version] = 3.3
+projects[quicktabs][version] = 3.4
 projects[quicktabs][subdir] = contrib
 ; http://drupal.org/node/1444418#comment-5616604 (fix default style field error)
 projects[quicktabs][patch][] = http://drupal.org/files/default_style-1444418-1.patch
