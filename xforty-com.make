@@ -59,8 +59,12 @@ projects[backup_migrate][subdir] = contrib
 ; http://drupal.org/node/1224948#comment-4760926 (Fixes typo in backup_migrate_update_7200())
 projects[backup_migrate][patch][] = http://drupal.org/files/issues/var-name-typo-1224948-1.patch
 
-projects[calendar][version] = 3.0
+; From a dev version of the 7.x-1.x branch (04/04/2012)
+projects[calendar][download][type] = file
+projects[calendar][download][url] = http://drupalcode.org/project/calendar.git/snapshot/3f4c3c70f25b980800e381e81d99f74a3ccf7711.tar.gz
 projects[calendar][subdir] = contrib
+; http://drupal.org/node/1445228#comment-5827784 (Fixes undefined var in calendar_granularity_path())
+projects[calendar][patch][] = http://drupal.org/files/granularity_undefined_var-1445228-42.patch
 
 projects[captcha][version] = 1.0-beta2
 projects[captcha][subdir] = contrib
