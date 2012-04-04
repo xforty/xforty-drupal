@@ -65,6 +65,8 @@ projects[calendar][download][url] = http://drupalcode.org/project/calendar.git/s
 projects[calendar][subdir] = contrib
 ; http://drupal.org/node/1445228#comment-5827784 (Fixes undefined var in calendar_granularity_path())
 projects[calendar][patch][] = http://drupal.org/files/granularity_undefined_var-1445228-42.patch
+; http://drupal.org/node/1445228#comment-5827978 (Fixes undefined var in calendar_preprocess_date_views_pager())
+projects[calendar][patch][] = http://drupal.org/files/date_views_pager_undefined_var-1445228-43.patch
 
 projects[captcha][version] = 1.0-beta2
 projects[captcha][subdir] = contrib
