@@ -11,6 +11,8 @@ projects[drupal][patch][] = http://drupal.org/files/undefined_function_during_up
 projects[drupal][patch][] = http://drupal.org/files/issues/db_1237252.patch
 ; http://drupal.org/node/966210#comment-4963508 (adds binary attribute to file_managed table)
 projects[drupal][patch][] = http://drupal.org/files/issues/files_966210-D7.patch
+; http://drupal.org/node/1330952#comment-5358448 (fixes "Incorrect integer value" errors with fields)
+projects[drupal][patch][] = http://drupal.org/files/field_sql_storage_null_string_fix-1330952-2-D7.patch
 
 ;----------------------------------------
 ; features
