@@ -53,9 +53,6 @@ projects[calendar][subdir] = contrib
 projects[captcha][version] = 1.0-beta2
 projects[captcha][subdir] = contrib
 
-projects[content_type_overview][version] = 1.0-beta2
-projects[content_type_overview][subdir] = contrib
-
 projects[context][version] = 3.0-beta3
 projects[context][subdir] = contrib
 
