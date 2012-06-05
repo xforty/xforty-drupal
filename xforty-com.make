@@ -244,7 +244,7 @@ projects[workbench_media][subdir] = contrib
 projects[workbench_access][version] = 1.0
 projects[workbench_access][subdir] = contrib
 
-projects[workbench_moderation][version] = 1.1
+projects[workbench_moderation][version] = 1.2
 projects[workbench_moderation][subdir] = contrib
 
 projects[wysiwyg][version] = 2.1
