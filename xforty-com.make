@@ -41,7 +41,7 @@ libraries[tinymce][destination] = libraries
 ; modules
 ;----------------------------------------
 
-projects[admin_menu][version] = 3.0-rc1
+projects[admin_menu][version] = 3.0-rc3
 projects[admin_menu][subdir] = contrib
 
 projects[advanced_help][version] = 1.0
