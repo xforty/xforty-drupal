@@ -76,7 +76,7 @@ projects[custom_search][subdir] = contrib
 projects[date][version] = 2.5
 projects[date][subdir] = contrib
 
-projects[date_ical][version] = 1.0
+projects[date_ical][version] = 1.1
 projects[date_ical][subdir] = contrib
 
 projects[devel][version] = 1.2
