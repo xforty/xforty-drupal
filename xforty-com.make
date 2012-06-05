@@ -70,7 +70,7 @@ projects[ctools][subdir] = contrib
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
 
-projects[custom_search][version] = 1.9
+projects[custom_search][version] = 1.10
 projects[custom_search][subdir] = contrib
 
 projects[date][version] = 2.3
