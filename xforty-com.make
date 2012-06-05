@@ -126,7 +126,7 @@ projects[libraries][subdir] = contrib
 projects[link][version] = 1.0
 projects[link][subdir] = contrib
 
-projects[media][version] = 1.0
+projects[media][version] = 1.1
 projects[media][subdir] = contrib
 
 projects[media_youtube][version] = 1.0-beta3
