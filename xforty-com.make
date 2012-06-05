@@ -73,7 +73,7 @@ projects[custom_breadcrumbs][subdir] = contrib
 projects[custom_search][version] = 1.10
 projects[custom_search][subdir] = contrib
 
-projects[date][version] = 2.3
+projects[date][version] = 2.5
 projects[date][subdir] = contrib
 
 projects[date_ical][version] = 1.0
