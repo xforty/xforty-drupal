@@ -47,14 +47,8 @@ projects[admin_menu][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
 
-; From a dev version of the 7.x-1.x branch (04/04/2012)
-projects[calendar][download][type] = file
-projects[calendar][download][url] = http://drupalcode.org/project/calendar.git/snapshot/3f4c3c70f25b980800e381e81d99f74a3ccf7711.tar.gz
+projects[calendar][version] = 3.4
 projects[calendar][subdir] = contrib
-; http://drupal.org/node/1445228#comment-5827784 (Fixes undefined var in calendar_granularity_path())
-projects[calendar][patch][] = http://drupal.org/files/granularity_undefined_var-1445228-42.patch
-; http://drupal.org/node/1445228#comment-5827978 (Fixes undefined var in calendar_preprocess_date_views_pager())
-projects[calendar][patch][] = http://drupal.org/files/date_views_pager_undefined_var-1445228-43.patch
 
 projects[captcha][version] = 1.0-beta2
 projects[captcha][subdir] = contrib
