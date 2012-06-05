@@ -33,7 +33,7 @@ libraries[jquery_cycle][directory_name] = jquery.cycle
 libraries[jquery_cycle][destination] = libraries
 
 libraries[tinymce][download][type] = get
-libraries[tinymce][download][url] = http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3.4.8.zip
+libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.2.zip
 libraries[tinymce][directory_name] = tinymce
 libraries[tinymce][destination] = libraries
 
