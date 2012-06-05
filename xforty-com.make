@@ -44,9 +44,6 @@ libraries[tinymce][destination] = libraries
 projects[admin_menu][version] = 3.0-rc3
 projects[admin_menu][subdir] = contrib
 
-projects[advanced_help][version] = 1.0
-projects[advanced_help][subdir] = contrib
-
 projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
 
