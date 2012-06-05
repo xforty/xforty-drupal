@@ -159,7 +159,7 @@ projects[override_node_options][subdir] = contrib
 projects[page_title][version] = 2.7
 projects[page_title][subdir] = contrib
 
-projects[pathauto][version] = 1.0
+projects[pathauto][version] = 1.1
 projects[pathauto][subdir] = contrib
 
 projects[pathologic][version] = 1.4
