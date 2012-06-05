@@ -199,7 +199,7 @@ projects[site_map][subdir] = contrib
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
-projects[strongarm][version] = 2.0-beta5
+projects[strongarm][version] = 2.0-rc1
 projects[strongarm][subdir] = contrib
 
 projects[token][version] = 1.0
