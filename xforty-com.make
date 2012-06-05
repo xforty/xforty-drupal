@@ -47,11 +47,6 @@ projects[admin_menu][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
 
-projects[backup_migrate][version] = 2.2
-projects[backup_migrate][subdir] = contrib
-; http://drupal.org/node/1224948#comment-4760926 (Fixes typo in backup_migrate_update_7200())
-projects[backup_migrate][patch][] = http://drupal.org/files/issues/var-name-typo-1224948-1.patch
-
 ; From a dev version of the 7.x-1.x branch (04/04/2012)
 projects[calendar][download][type] = file
 projects[calendar][download][url] = http://drupalcode.org/project/calendar.git/snapshot/3f4c3c70f25b980800e381e81d99f74a3ccf7711.tar.gz
