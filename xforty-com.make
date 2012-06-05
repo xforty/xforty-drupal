@@ -53,11 +53,6 @@ projects[calendar][subdir] = contrib
 projects[captcha][version] = 1.0-beta2
 projects[captcha][subdir] = contrib
 
-projects[config_perms][version] = 2.0
-projects[config_perms][subdir] = contrib
-; http://drupal.org/node/1229198#comment-4809422 (Fixes the invalid arg warning during install)
-projects[config_perms][patch][] = http://drupal.org/files/issues/invalid_arg_during_install-1229198-1.patch
-
 projects[content_type_overview][version] = 1.0-beta2
 projects[content_type_overview][subdir] = contrib
 
