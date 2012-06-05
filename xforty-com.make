@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.12
+projects[drupal][version] = 7.14
 ; http://drupal.org/node/1371216#comment-5600570 (fixes undefined function for text.install)
 projects[drupal][patch][] = http://drupal.org/files/undefined_function_during_install-1371216-3.patch
 ; http://drupal.org/node/1357072#comment-5600632 (fixes undefined function for image.install)
