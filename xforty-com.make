@@ -156,7 +156,7 @@ projects[omega_tools][subdir] = contrib
 projects[override_node_options][version] = 1.12
 projects[override_node_options][subdir] = contrib
 
-projects[page_title][version] = 2.5
+projects[page_title][version] = 2.7
 projects[page_title][subdir] = contrib
 
 projects[pathauto][version] = 1.0
