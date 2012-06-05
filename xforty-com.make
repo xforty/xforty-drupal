@@ -99,7 +99,7 @@ projects[email][subdir] = contrib
 projects[entityreference][version] = 1.0-rc3
 projects[entityreference][subdir] = contrib
 
-projects[features][version] = 1.0-rc1
+projects[features][version] = 1.0-rc2
 projects[features][subdir] = contrib
 
 projects[feeds][version] = 2.0-alpha4
