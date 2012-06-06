@@ -91,6 +91,9 @@ projects[email][subdir] = contrib
 projects[entityreference][version] = 1.0-rc3
 projects[entityreference][subdir] = contrib
 
+projects[environment_indicator][version] = 1.1
+projects[environment_indicator][subdir] = contrib
+
 projects[features][version] = 1.0-rc2
 projects[features][subdir] = contrib
 
@@ -99,6 +102,9 @@ projects[field_group][subdir] = contrib
 
 projects[field_permissions][version] = 1.0-beta2
 projects[field_permissions][subdir] = contrib
+
+projects[filefield_sources][version] = 1.4
+projects[filefield_sources][subdir] = contrib
 
 projects[fontyourface][version] = 2.3
 projects[fontyourface][subdir] = contrib
@@ -135,6 +141,12 @@ projects[menu_block][subdir] = contrib
 
 projects[menu_position][version] = 1.1
 projects[menu_position][subdir] = contrib
+
+projects[metatag][version] = 1.0-alpha6
+projects[metatag][subdir] = contrib
+
+projects[module_filter][version] = 1.6
+projects[module_filter][subdir] = contrib
 
 projects[nice_menus][version] = 2.1
 projects[nice_menus][subdir] = contrib
@@ -184,6 +196,15 @@ projects[role_delegation][subdir] = contrib
 
 projects[rules][version] = 2.1
 projects[rules][subdir] = contrib
+
+projects[security_review][version] = 1.0
+projects[security_review][subdir] = contrib
+
+projects[seo_checker][version] = 1.5
+projects[seo_checker][subdir] = contrib
+
+projects[seo_checklist][version] = 3.0-beta1
+projects[seo_checklist][subdir] = contrib
 
 projects[site_map][version] = 1.0
 projects[site_map][subdir] = contrib
@@ -243,6 +264,9 @@ projects[wysiwyg][version] = 2.1
 projects[wysiwyg][subdir] = contrib
 ; http://drupal.org/node/624018#comment-4718154 (Adds Feature support for WYSIWYG)
 projects[wysiwyg][patch][] = http://drupal.org/files/issues/wysiwyg-entity-exportables-624018-186.patch
+
+projects[xmlsitemap][version] = 2.0-rc1
+projects[xmlsitemap][subdir] = contrib
 
 ;----------------------------------------
 ; themes
