@@ -26,9 +26,8 @@ dependencies[] = user
 
 ; Contrib
 dependencies[] = admin_menu
-dependencies[] = advanced_help
-dependencies[] = config_perms
-dependencies[] = content_type_overview
+dependencies[] = calendar
+dependencies[] = captcha
 dependencies[] = ctools
 dependencies[] = date
 dependencies[] = date_api
