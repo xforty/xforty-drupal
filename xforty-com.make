@@ -202,8 +202,12 @@ projects[security_review][subdir] = contrib
 projects[seo_checker][version] = 1.5
 projects[seo_checker][subdir] = contrib
 
-projects[seo_checklist][version] = 3.0-beta1
+; From a dev version of the 7.x-3.x branch (06/06/2012)
+projects[seo_checklist][download][type] = file
+projects[seo_checklist][download][url] = http://drupalcode.org/project/seo_checklist.git/snapshot/572e271a628c35db17bb0a44f05f61c35f231031.tar.gz
 projects[seo_checklist][subdir] = contrib
+; http://drupal.org/node/467944#comment-5879504 (make machine name match project name)
+projects[seo_checklist][patch][] = http://drupal.org/files/seo_checklist-467944-6.patch
 
 projects[site_map][version] = 1.0
 projects[site_map][subdir] = contrib
