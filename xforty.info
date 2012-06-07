@@ -25,7 +25,9 @@ dependencies[] = text
 dependencies[] = update
 dependencies[] = user
 
-; Notable we are missing a few defaults like overlay, toolbar, shortcut, dashboard, more minimal
+; Notably, we are missing a few defaults like overlay, toolbar,
+; shortcut, and dashboard. That's because we're not a fan of
+; the new functionality.
 
 ; Contrib
 dependencies[] = admin_menu
