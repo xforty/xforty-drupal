@@ -16,11 +16,6 @@ projects[drupal][patch][] = http://drupal.org/files/field_sql_storage_null_strin
 ; libraries
 ;----------------------------------------
 
-libraries[profiler][download][type] = get
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz
-libraries[profiler][directory_name] = profiler
-libraries[profiler][destination] = libraries
-
 libraries[ckeditor][download][type] = get
 libraries[ckeditor][download][url] = http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.tar.gz
 libraries[ckeditor][directory_name] = ckeditor
@@ -31,6 +26,11 @@ libraries[jquery_cycle][download][url] = https://github.com/downloads/malsup/cyc
 libraries[jquery_cycle][download][filename] = jquery.cycle.all.min.js
 libraries[jquery_cycle][directory_name] = jquery.cycle
 libraries[jquery_cycle][destination] = libraries
+
+libraries[profiler][download][type] = get
+libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz
+libraries[profiler][directory_name] = profiler
+libraries[profiler][destination] = libraries
 
 libraries[tinymce][download][type] = get
 libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.2.zip
