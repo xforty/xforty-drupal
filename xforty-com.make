@@ -191,9 +191,6 @@ projects[redirect][subdir] = contrib
 projects[revision_all][version] = 1.1
 projects[revision_all][subdir] = contrib
 
-projects[riddler][version] = 1.2
-projects[riddler][subdir] = contrib
-
 projects[role_delegation][version] = 1.1
 projects[role_delegation][subdir] = contrib
 
