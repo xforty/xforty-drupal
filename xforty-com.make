@@ -91,9 +91,6 @@ projects[entityreference][subdir] = contrib
 projects[environment_indicator][version] = 1.1
 projects[environment_indicator][subdir] = contrib
 
-projects[features][version] = 1.0-rc2
-projects[features][subdir] = contrib
-
 projects[field_collection][version] = 1.0-beta4
 projects[field_collection][subdir] = contrib
 
@@ -212,9 +209,6 @@ projects[site_map][subdir] = contrib
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
-projects[strongarm][version] = 2.0-rc1
-projects[strongarm][subdir] = contrib
-
 projects[token][version] = 1.1
 projects[token][subdir] = contrib
 
@@ -232,12 +226,6 @@ projects[views_bulk_operations][subdir] = contrib
 
 projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = contrib
-
-projects[uuid][version] = 1.0-alpha3
-projects[uuid][subdir] = contrib
-
-projects[uuid_features][version] = 1.0-alpha1
-projects[uuid_features][subdir] = contrib
 
 projects[webform][version] = 3.18
 projects[webform][subdir] = contrib
