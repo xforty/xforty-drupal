@@ -159,6 +159,8 @@ projects[nodeblock][subdir] = contrib
 
 projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][subdir] = contrib
+; http://drupal.org/node/1291520#comment-6109328 (sorted for better vcs)
+projects[omega_tools][patch][] = http://drupal.org/files/exported_info_file_readable-1291520-4.patch
 
 projects[override_node_options][version] = 1.12
 projects[override_node_options][subdir] = contrib
