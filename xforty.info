@@ -70,7 +70,6 @@ dependencies[] = revision_all
 dependencies[] = role_delegation
 dependencies[] = security_review
 dependencies[] = seo_checker
-dependencies[] = seo_checklist
 dependencies[] = token
 dependencies[] = view_unpublished
 dependencies[] = views
