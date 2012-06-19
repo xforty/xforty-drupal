@@ -63,7 +63,6 @@ dependencies[] = module_filter
 dependencies[] = nice_menus
 dependencies[] = nodeblock
 dependencies[] = override_node_options
-dependencies[] = page_title
 dependencies[] = pathauto
 dependencies[] = pathologic
 dependencies[] = redirect
