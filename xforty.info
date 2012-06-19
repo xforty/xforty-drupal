@@ -31,6 +31,7 @@ dependencies[] = user
 
 ; Contrib
 dependencies[] = admin_menu
+dependencies[] = admin_views
 dependencies[] = calendar
 dependencies[] = captcha
 dependencies[] = image_captcha
