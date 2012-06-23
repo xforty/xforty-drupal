@@ -75,8 +75,8 @@ projects[date_ical][subdir] = contrib
 
 projects[devel][version] = 1.3
 projects[devel][subdir] = contrib
-; http://drupal.org/node/660758#comment-6152938 (removes duplicates from generated taxonomy terms)
-projects[devel][patch][] = http://drupal.org/files/remove_duplicates-660758-14.patch
+; http://drupal.org/node/660758#comment-6154264 (removes duplicates from generated taxonomy terms)
+projects[devel][patch][] = http://drupal.org/files/remove_duplicates-660758-17.patch
 
 ; From a dev version of the 7.x-1.x branch (02/07/2012)
 projects[devel_themer][download][type] = file
