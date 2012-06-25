@@ -214,6 +214,9 @@ projects[site_map][subdir] = contrib
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
+projects[taxonomy_formatter][version] = 1.3
+projects[taxonomy_formatter][subdir] = contrib
+
 projects[token][version] = 1.1
 projects[token][subdir] = contrib
 
