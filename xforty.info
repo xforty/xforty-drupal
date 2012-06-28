@@ -48,7 +48,6 @@ dependencies[] = diff
 dependencies[] = email
 dependencies[] = entity
 dependencies[] = field_group
-dependencies[] = filefield_sources
 dependencies[] = image_resize_filter
 dependencies[] = imce
 dependencies[] = imce_wysiwyg
