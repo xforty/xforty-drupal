@@ -58,6 +58,12 @@ projects[calendar][subdir] = contrib
 projects[captcha][version] = 1.0-beta2
 projects[captcha][subdir] = contrib
 
+; From a dev version of the 7.x-2.x branch (06/29/2012)
+; Contains fix for undefined index for remove checkbox
+projects[config_perms][download][type] = file
+projects[config_perms][download][url] = http://drupalcode.org/project/config_perms.git/snapshot/0953b4bc259ecd339c8978a0dbe84eaf9fbd635b.tar.gz
+projects[config_perms][subdir] = contrib
+
 projects[ctools][version] = 1.0
 projects[ctools][subdir] = contrib
 

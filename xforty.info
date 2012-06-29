@@ -35,6 +35,7 @@ dependencies[] = admin_views
 dependencies[] = calendar
 dependencies[] = captcha
 dependencies[] = image_captcha
+dependencies[] = config_perms
 dependencies[] = ctools
 dependencies[] = custom_search
 dependencies[] = date
