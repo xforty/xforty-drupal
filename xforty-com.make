@@ -240,8 +240,12 @@ projects[webform][subdir] = contrib
 projects[webform_validation][version] = 1.1
 projects[webform_validation][subdir] = contrib
 
-projects[workbench][version] = 1.1
+; From a dev version of the 7.x-1.x branch (06/28/2012)
+projects[workbench][download][type] = file
+projects[workbench][download][url] = http://drupalcode.org/project/workbench.git/snapshot/b26284b09884d78a7f1e7f60acec843cb3c9e549.tar.gz
 projects[workbench][subdir] = contrib
+; http://drupal.org/node/1569698#comment-5976494 (fixes Missing text format: 1 error)
+projects[workbench][patch][] = http://drupal.org/files/1569698-workbench-reexport-views.patch
 
 projects[workbench_files][version] = 1.0
 projects[workbench_files][subdir] = contrib
