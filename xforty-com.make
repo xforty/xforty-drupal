@@ -77,6 +77,8 @@ projects[devel][version] = 1.3
 projects[devel][subdir] = contrib
 ; http://drupal.org/node/660758#comment-6154264 (removes duplicates from generated taxonomy terms)
 projects[devel][patch][] = http://drupal.org/files/remove_duplicates-660758-17.patch
+; http://drupal.org/node/1010394#comment-4563434 (fixes long unbroken text)
+projects[devel][patch][] = http://drupal.org/files/issues/devel-greeking-text-field-1010394.patch
 
 ; From a dev version of the 7.x-1.x branch (02/07/2012)
 projects[devel_themer][download][type] = file
