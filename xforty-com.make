@@ -44,9 +44,9 @@ libraries[tinymce][destination] = libraries
 projects[admin_menu][version] = 3.0-rc3
 projects[admin_menu][subdir] = contrib
 
-; From a dev version of the 7.x-1.x branch (06/19/2012)
+; From a dev version of the 7.x-1.x branch (06/30/2012)
 projects[admin_views][download][type] = file
-projects[admin_views][download][url] = http://drupalcode.org/project/admin_views.git/snapshot/a73fc91531bd1651c8aa0c3903fd2af1c7973f0b.tar.gz
+projects[admin_views][download][url] = http://drupalcode.org/project/admin_views.git/snapshot/2cc9a18f8a3a31824629cd15318f804d1fd5b5ac.tar.gz
 projects[admin_views][subdir] = contrib
 
 projects[auto_nodetitle][version] = 1.0
