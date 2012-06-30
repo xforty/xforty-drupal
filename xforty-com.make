@@ -63,6 +63,8 @@ projects[captcha][subdir] = contrib
 projects[config_perms][download][type] = file
 projects[config_perms][download][url] = http://drupalcode.org/project/config_perms.git/snapshot/0953b4bc259ecd339c8978a0dbe84eaf9fbd635b.tar.gz
 projects[config_perms][subdir] = contrib
+; http://drupal.org/node/1274800#comment-6109048 (fixes invalid argument)
+projects[config_perms][patch][] = http://drupal.org/files/config_perms-hook-menu-alter-non-object-1274800-8.patch
 
 projects[ctools][version] = 1.0
 projects[ctools][subdir] = contrib
