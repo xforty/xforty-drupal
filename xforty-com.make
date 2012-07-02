@@ -212,9 +212,6 @@ projects[rules][patch][] = http://drupal.org/files/remove-make-file-1329346-10.p
 projects[security_review][version] = 1.0
 projects[security_review][subdir] = contrib
 
-projects[seo_checker][version] = 1.5
-projects[seo_checker][subdir] = contrib
-
 projects[site_map][version] = 1.0
 projects[site_map][subdir] = contrib
 
