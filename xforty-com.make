@@ -226,9 +226,6 @@ projects[taxonomy_formatter][patch][] = http://drupal.org/files/taxonomy_formatt
 projects[token][version] = 1.1
 projects[token][subdir] = contrib
 
-projects[variable][version] = 1.2
-projects[variable][subdir] = contrib
-
 projects[view_unpublished][version] = 1.0
 projects[view_unpublished][subdir] = contrib
 
