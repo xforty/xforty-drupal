@@ -88,9 +88,10 @@ projects[devel][patch][] = http://drupal.org/files/remove_duplicates-660758-17.p
 ; http://drupal.org/node/1010394#comment-4563434 (fixes long unbroken text)
 projects[devel][patch][] = http://drupal.org/files/issues/devel-greeking-text-field-1010394.patch
 
-; From a dev version of the 7.x-1.x branch (02/07/2012)
+; From a dev version of the 7.x-1.x branch (07/01/2012)
+; No official release available yet
 projects[devel_themer][download][type] = file
-projects[devel_themer][download][url] = http://drupalcode.org/project/devel_themer.git/snapshot/93fa94d46186703c86b96dcd09a17980f045eeff.tar.gz
+projects[devel_themer][download][url] = http://drupalcode.org/project/devel_themer.git/snapshot/eae19ba94e47a0d5d017f350e1aa9933d85e2de0.tar.gz
 projects[devel_themer][subdir] = contrib
 
 projects[diff][version] = 2.0
