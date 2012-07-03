@@ -74,6 +74,7 @@ dependencies[] = token
 dependencies[] = view_unpublished
 dependencies[] = views
 dependencies[] = views_ui
+dependencies[] = views_ui_basic
 dependencies[] = webform
 dependencies[] = webform_validation
 dependencies[] = workbench

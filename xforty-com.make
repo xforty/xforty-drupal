@@ -239,6 +239,9 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_slideshow][version] = 3.0
 projects[views_slideshow][subdir] = contrib
 
+projects[views_ui_basic][version] = 1.1
+projects[views_ui_basic][subdir] = contrib
+
 projects[webform][version] = 3.18
 projects[webform][subdir] = contrib
 
