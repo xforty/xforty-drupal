@@ -63,6 +63,8 @@ projects[config_perms][patch][] = http://drupal.org/files/config_perms-hook-menu
 
 projects[ctools][version] = 1.2
 projects[ctools][subdir] = contrib
+; http://drupal.org/node/1727804#comment-6395400 (fixes multi-level tokens)
+projects[ctools][patch][] = http://drupal.org/files/ctools-1727804-6_0.patch
 
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
