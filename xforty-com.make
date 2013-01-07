@@ -32,11 +32,6 @@ libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profil
 libraries[profiler][directory_name] = profiler
 libraries[profiler][destination] = libraries
 
-libraries[tinymce][download][type] = get
-libraries[tinymce][download][url] = http://github.com/downloads/tinymce/tinymce/tinymce_3.5.2.zip
-libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][destination] = libraries
-
 ;----------------------------------------
 ; modules
 ;----------------------------------------
