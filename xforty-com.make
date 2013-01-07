@@ -61,7 +61,7 @@ projects[config_perms][subdir] = contrib
 ; http://drupal.org/node/1274800#comment-6109048 (fixes invalid argument)
 projects[config_perms][patch][] = http://drupal.org/files/config_perms-hook-menu-alter-non-object-1274800-8.patch
 
-projects[ctools][version] = 1.0
+projects[ctools][version] = 1.2
 projects[ctools][subdir] = contrib
 
 projects[custom_breadcrumbs][version] = 1.0-alpha1
