@@ -41,9 +41,7 @@ libraries[profiler][destination] = libraries
 projects[admin_menu][version] = 3.0-rc3
 projects[admin_menu][subdir] = contrib
 
-; From a dev version of the 7.x-1.x branch (06/30/2012)
-projects[admin_views][download][type] = file
-projects[admin_views][download][url] = http://drupalcode.org/project/admin_views.git/snapshot/2cc9a18f8a3a31824629cd15318f804d1fd5b5ac.tar.gz
+projects[admin_views][version] = 1.1
 projects[admin_views][subdir] = contrib
 
 projects[auto_nodetitle][version] = 1.0
