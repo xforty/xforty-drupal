@@ -7,6 +7,8 @@ projects[drupal][version] = 7.18
 projects[drupal][patch][] = http://drupal.org/files/undefined_function_during_install-1371216-3.patch
 ; http://drupal.org/node/1330952#comment-5358448 (fixes "Incorrect integer value" errors with fields)
 projects[drupal][patch][] = http://drupal.org/files/field_sql_storage_null_string_fix-1330952-2-D7.patch
+; http://drupal.org/node/1040790#comment-6905572 (fixes field_info_fields warning during install)
+projects[drupal][patch][] = http://drupal.org/files/field-info-cache-1040790-240-D7.patch
 
 ;----------------------------------------
 ; features
