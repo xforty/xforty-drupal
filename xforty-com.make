@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = 7.14
+projects[drupal][version] = 7.18
 ; http://drupal.org/node/1371216#comment-5600570 (fixes undefined function for text.install)
 projects[drupal][patch][] = http://drupal.org/files/undefined_function_during_install-1371216-3.patch
 ; http://drupal.org/node/1330952#comment-5358448 (fixes "Incorrect integer value" errors with fields)
