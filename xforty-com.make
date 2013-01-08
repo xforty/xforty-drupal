@@ -29,8 +29,10 @@ libraries[jquery_cycle][download][filename] = jquery.cycle.all.min.js
 libraries[jquery_cycle][directory_name] = jquery.cycle
 libraries[jquery_cycle][destination] = libraries
 
+; From a dev version of the 7.x-2.x branch (01/08/2013)
+; Issue #234884: Do not disable blocks.
 libraries[profiler][download][type] = get
-libraries[profiler][download][url] = http://ftp.drupal.org/files/projects/profiler-7.x-2.0-beta1.tar.gz
+libraries[profiler][download][url] = http://drupalcode.org/project/profiler.git/snapshot/61f44c21e73243f7d38b71b7faa95220a04491f3.tar.gz
 libraries[profiler][directory_name] = profiler
 libraries[profiler][destination] = libraries
 
