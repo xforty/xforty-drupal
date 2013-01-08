@@ -91,7 +91,7 @@ projects[devel_themer][download][type] = file
 projects[devel_themer][download][url] = http://drupalcode.org/project/devel_themer.git/snapshot/eae19ba94e47a0d5d017f350e1aa9933d85e2de0.tar.gz
 projects[devel_themer][subdir] = contrib
 
-projects[diff][version] = 2.0
+projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
 projects[email][version] = 1.1
