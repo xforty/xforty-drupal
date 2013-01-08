@@ -157,7 +157,7 @@ projects[menu_block][subdir] = contrib
 projects[menu_position][version] = 1.1
 projects[menu_position][subdir] = contrib
 
-projects[metatag][version] = 1.0-alpha6
+projects[metatag][version] = 1.0-beta4
 projects[metatag][subdir] = contrib
 
 projects[module_filter][version] = 1.6
