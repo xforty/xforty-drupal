@@ -133,7 +133,7 @@ projects[imce_wysiwyg][subdir] = contrib
 projects[jquery_update][version] = 2.2
 projects[jquery_update][subdir] = contrib
 
-projects[libraries][version] = 1.0
+projects[libraries][version] = 2.0
 projects[libraries][subdir] = contrib
 
 projects[link][version] = 1.0
