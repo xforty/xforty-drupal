@@ -17,19 +17,34 @@ function xforty_install() {
         'weight' => 0,
         'status' => 1,
       ),
+      // Image Resize filter.
+      'image_resize_filter' => array(
+        'weight' => 10,
+        'status' => 1,
+      ),
       // HTML filter.
       'filter_html' => array(
-        'weight' => 1,
+        'weight' => 20,
         'status' => 1,
       ),
       // Line break filter.
       'filter_autop' => array(
-        'weight' => 2,
+        'weight' => 30,
+        'status' => 1,
+      ),
+      // Convert Media tags filter.
+      'media_filter' => array(
+        'weight' => 40,
         'status' => 1,
       ),
       // HTML corrector filter.
       'filter_htmlcorrector' => array(
-        'weight' => 10,
+        'weight' => 50,
+        'status' => 1,
+      ),
+      // Pathologic filter.
+      'pathologic' => array(
+        'weight' => 60,
         'status' => 1,
       ),
     ),
@@ -47,14 +62,29 @@ function xforty_install() {
         'weight' => 0,
         'status' => 1,
       ),
+      // Image Resize filter.
+      'image_resize_filter' => array(
+        'weight' => 10,
+        'status' => 1,
+      ),
       // Line break filter.
       'filter_autop' => array(
-        'weight' => 1,
+        'weight' => 30,
+        'status' => 1,
+      ),
+      // Convert Media tags filter.
+      'media_filter' => array(
+        'weight' => 40,
         'status' => 1,
       ),
       // HTML corrector filter.
       'filter_htmlcorrector' => array(
-        'weight' => 10,
+        'weight' => 50,
+        'status' => 1,
+      ),
+      // Pathologic filter.
+      'pathologic' => array(
+        'weight' => 60,
         'status' => 1,
       ),
     ),
