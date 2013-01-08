@@ -5,6 +5,7 @@ description = Drupal distribution
 ; Core
 dependencies[] = block
 dependencies[] = contextual
+;dependencies[] = dashboard
 dependencies[] = dblog
 dependencies[] = field
 dependencies[] = field_sql_storage
@@ -25,12 +26,9 @@ dependencies[] = shortcut
 dependencies[] = system
 dependencies[] = taxonomy
 dependencies[] = text
+;dependencies[] = toolbar
 dependencies[] = update
 dependencies[] = user
-
-; Notably, we are missing a few defaults like overlay, toolbar,
-; shortcut, and dashboard. That's because we're not a fan of
-; the new functionality.
 
 ; Contrib
 dependencies[] = admin_menu
