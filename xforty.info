@@ -2,6 +2,10 @@ name = xforty technologies
 core = 7.x
 description = Drupal distribution
 
+;----------------------------------------
+; modules
+;----------------------------------------
+
 ; Core
 dependencies[] = block
 dependencies[] = contextual
@@ -80,5 +84,8 @@ dependencies[] = webform_validation
 dependencies[] = workbench
 dependencies[] = wysiwyg
 
-; Variables
+;----------------------------------------
+; variables
+;----------------------------------------
+
 variables[admin_menu_position_fixed] = 1
