@@ -124,7 +124,7 @@ projects[google_analytics][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 projects[image_resize_filter][subdir] = contrib
 
-projects[imce][version] = 1.5
+projects[imce][version] = 1.6
 projects[imce][subdir] = contrib
 
 projects[imce_wysiwyg][version] = 1.0
