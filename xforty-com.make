@@ -222,7 +222,7 @@ projects[token][subdir] = contrib
 projects[view_unpublished][version] = 1.1
 projects[view_unpublished][subdir] = contrib
 
-projects[views][version] = 3.3
+projects[views][version] = 3.5
 projects[views][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.0-rc1
