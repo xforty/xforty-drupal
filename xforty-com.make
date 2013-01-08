@@ -261,7 +261,7 @@ projects[wysiwyg][subdir] = contrib
 ; http://drupal.org/node/507696#comment-6143656 (height now uses field's rows setting)
 projects[wysiwyg][patch][] = http://drupal.org/files/wysiwyg_height_per_field-507696-75.patch
 
-projects[xmlsitemap][version] = 2.0-rc1
+projects[xmlsitemap][version] = 2.0-rc2
 projects[xmlsitemap][subdir] = contrib
 
 ;----------------------------------------
