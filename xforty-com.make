@@ -247,9 +247,6 @@ projects[workbench][subdir] = contrib
 ; http://drupal.org/node/1569698#comment-5976494 (fixes Missing text format: 1 error)
 projects[workbench][patch][] = http://drupal.org/files/1569698-workbench-reexport-views.patch
 
-projects[workbench_files][version] = 1.0
-projects[workbench_files][subdir] = contrib
-
 projects[workbench_media][version] = 1.0
 projects[workbench_media][subdir] = contrib
 
