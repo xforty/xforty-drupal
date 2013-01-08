@@ -260,8 +260,6 @@ projects[wysiwyg][version] = 2.2
 projects[wysiwyg][subdir] = contrib
 ; http://drupal.org/node/507696#comment-6143656 (height now uses field's rows setting)
 projects[wysiwyg][patch][] = http://drupal.org/files/wysiwyg_height_per_field-507696-75.patch
-; http://drupal.org/node/624018#comment-4718154 (Adds Feature support for WYSIWYG)
-projects[wysiwyg][patch][] = http://drupal.org/files/issues/wysiwyg-entity-exportables-624018-186.patch
 
 projects[xmlsitemap][version] = 2.0-rc1
 projects[xmlsitemap][subdir] = contrib
