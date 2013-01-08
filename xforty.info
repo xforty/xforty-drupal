@@ -32,6 +32,7 @@ dependencies[] = user
 
 ; Contrib
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = admin_views
 dependencies[] = calendar
 dependencies[] = config_perms
