@@ -160,7 +160,7 @@ projects[menu_position][subdir] = contrib
 projects[metatag][version] = 1.0-beta4
 projects[metatag][subdir] = contrib
 
-projects[module_filter][version] = 1.6
+projects[module_filter][version] = 1.7
 projects[module_filter][subdir] = contrib
 
 projects[nice_menus][version] = 2.1
