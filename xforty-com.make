@@ -193,7 +193,7 @@ projects[quicktabs][patch][] = http://drupal.org/files/default_style-1444418-1.p
 ; http://drupal.org/node/1444376#comment-5616394 (fix unknown renderer column on upgrade)
 projects[quicktabs][patch][] = http://drupal.org/files/unknown_column_renderer-1444376-1.patch
 
-projects[redirect][version] = 1.0-beta4
+projects[redirect][version] = 1.0-rc1
 projects[redirect][subdir] = contrib
 
 projects[revision_all][version] = 1.1
