@@ -180,7 +180,7 @@ projects[override_node_options][subdir] = contrib
 projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = contrib
 
-projects[pathologic][version] = 1.4
+projects[pathologic][version] = 2.10
 projects[pathologic][subdir] = contrib
 
 projects[profile2][version] = 1.2
