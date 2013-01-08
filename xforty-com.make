@@ -69,7 +69,7 @@ projects[ctools][patch][] = http://drupal.org/files/ctools-1727804-6_0.patch
 projects[custom_breadcrumbs][version] = 1.0-alpha1
 projects[custom_breadcrumbs][subdir] = contrib
 
-projects[custom_search][version] = 1.10
+projects[custom_search][version] = 1.11
 projects[custom_search][subdir] = contrib
 
 projects[date][version] = 2.5
