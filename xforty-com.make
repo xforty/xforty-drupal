@@ -256,9 +256,7 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.2
 projects[workbench_moderation][subdir] = contrib
 
-; From a dev version of the 7.x-2.x branch (06/20/2012)
-projects[wysiwyg][download][type] = file
-projects[wysiwyg][download][url] = http://drupalcode.org/project/wysiwyg.git/snapshot/7e6609e823233f9f096096d6139e02f89820bda1.tar.gz
+projects[wysiwyg][version] = 2.2
 projects[wysiwyg][subdir] = contrib
 ; http://drupal.org/node/507696#comment-6143656 (height now uses field's rows setting)
 projects[wysiwyg][patch][] = http://drupal.org/files/wysiwyg_height_per_field-507696-75.patch
