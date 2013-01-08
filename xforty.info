@@ -67,7 +67,6 @@ dependencies[] = pathologic
 dependencies[] = redirect
 dependencies[] = revision_all
 dependencies[] = role_delegation
-dependencies[] = security_review
 dependencies[] = taxonomy_formatter
 dependencies[] = token
 dependencies[] = view_unpublished
