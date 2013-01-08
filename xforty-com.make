@@ -94,7 +94,7 @@ projects[devel_themer][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[email][version] = 1.1
+projects[email][version] = 1.2
 projects[email][subdir] = contrib
 
 projects[entity][version] = 1.0-rc3
