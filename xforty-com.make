@@ -202,10 +202,8 @@ projects[revision_all][subdir] = contrib
 projects[role_delegation][version] = 1.1
 projects[role_delegation][subdir] = contrib
 
-projects[rules][version] = 2.1
+projects[rules][version] = 2.2
 projects[rules][subdir] = contrib
-; http://drupal.org/node/1329346#comment-5765542 (remove rules.make)
-projects[rules][patch][] = http://drupal.org/files/remove-make-file-1329346-10.patch
 
 projects[security_review][version] = 1.0
 projects[security_review][subdir] = contrib
