@@ -205,9 +205,6 @@ projects[role_delegation][subdir] = contrib
 projects[rules][version] = 2.2
 projects[rules][subdir] = contrib
 
-projects[security_review][version] = 1.0
-projects[security_review][subdir] = contrib
-
 projects[site_map][version] = 1.0
 projects[site_map][subdir] = contrib
 
