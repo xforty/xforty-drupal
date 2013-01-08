@@ -183,7 +183,7 @@ projects[pathauto][subdir] = contrib
 projects[pathologic][version] = 2.10
 projects[pathologic][subdir] = contrib
 
-projects[profile2][version] = 1.2
+projects[profile2][version] = 1.3
 projects[profile2][subdir] = contrib
 
 projects[quicktabs][version] = 3.4
