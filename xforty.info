@@ -9,33 +9,25 @@ files[] = xforty.install
 ; modules
 ;----------------------------------------
 
+; By default, the field, field SQL storage, filter, list, node,
+; number, options, system, text, and user modules are enabled.
+
 ; Core
 dependencies[] = block
 dependencies[] = contextual
 ;dependencies[] = dashboard
 dependencies[] = dblog
-dependencies[] = field
-dependencies[] = field_sql_storage
 dependencies[] = field_ui
 dependencies[] = file
-dependencies[] = filter
-dependencies[] = help
 dependencies[] = image
-dependencies[] = list
 dependencies[] = menu
-dependencies[] = node
-dependencies[] = number
-dependencies[] = options
 dependencies[] = overlay
 dependencies[] = path
 dependencies[] = search
 dependencies[] = shortcut
-dependencies[] = system
 dependencies[] = taxonomy
-dependencies[] = text
 ;dependencies[] = toolbar
 dependencies[] = update
-dependencies[] = user
 
 ; Contrib
 dependencies[] = admin_menu
