@@ -142,7 +142,7 @@ projects[link][subdir] = contrib
 projects[media][version] = 1.2
 projects[media][subdir] = contrib
 
-projects[media_youtube][version] = 1.0-beta3
+projects[media_youtube][version] = 2.0-rc1
 projects[media_youtube][subdir] = contrib
 
 projects[menu_admin_per_menu][version] = 1.0
