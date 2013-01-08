@@ -79,3 +79,6 @@ dependencies[] = webform
 dependencies[] = webform_validation
 dependencies[] = workbench
 dependencies[] = wysiwyg
+
+; Variables
+variables[admin_menu_position_fixed] = 1
