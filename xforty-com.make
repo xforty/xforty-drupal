@@ -225,7 +225,7 @@ projects[view_unpublished][subdir] = contrib
 projects[views][version] = 3.5
 projects[views][subdir] = contrib
 
-projects[views_bulk_operations][version] = 3.0-rc1
+projects[views_bulk_operations][version] = 3.1
 projects[views_bulk_operations][subdir] = contrib
 
 projects[views_slideshow][version] = 3.0
