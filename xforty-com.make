@@ -216,7 +216,7 @@ projects[taxonomy_formatter][subdir] = contrib
 ; http://drupal.org/node/1449858#comment-5698954 (fixes EntityMalformedException for deleted term)
 projects[taxonomy_formatter][patch][] = http://drupal.org/files/taxonomy_formatter_term_check.patch
 
-projects[token][version] = 1.1
+projects[token][version] = 1.4
 projects[token][subdir] = contrib
 
 projects[view_unpublished][version] = 1.1
