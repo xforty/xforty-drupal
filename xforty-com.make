@@ -108,6 +108,15 @@ projects[entityreference][subdir] = contrib
 projects[environment_indicator][version] = 1.1
 projects[environment_indicator][subdir] = contrib
 
+projects[features][version] = 2.0-beta1
+projects[features][subdir] = contrib
+
+projects[features_extra][version] = 1.0-alpha1
+projects[features_extra][subdir] = contrib
+
+projects[features_override][version] = 2.0-beta1
+projects[features_override][subdir] = contrib
+
 projects[field_collection][version] = 1.0-beta5
 projects[field_collection][subdir] = contrib
 
@@ -215,6 +224,9 @@ projects[site_map][subdir] = contrib
 
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
+
+projects[strongarm][version] = 2.0
+projects[strongarm][subdir] = contrib
 
 projects[taxonomy_formatter][version] = 1.4
 projects[taxonomy_formatter][subdir] = contrib
