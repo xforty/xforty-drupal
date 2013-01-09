@@ -3,7 +3,7 @@
 Base makefile for Drupal 6.x, and 7.x.  Laying the ground work for a KIT
 implementation.  [[1](http://drupalcode.org/project/buildkit.git/blob/refs/heads/6.x-2.x:/README.txt)]
 
-* `xforty-com.make` is the makefile that gets included by `disto.make`
+* `xforty.make` is the makefile that gets included by `disto.make`
 * `xforty.info` is the reference for building a new site.info
 * `xforty.profile` is the reference file for building a site.profile
 * `distro.make` is template you use to start

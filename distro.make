@@ -6,10 +6,10 @@
 ; base make file
 ;----------------------------------------
 
-includes[] = http://github.com/xforty/xforty-drupal/raw/7.x/xforty-com.make
+includes[] = http://github.com/xforty/xforty-drupal/raw/7.x/xforty.make
 
 ; If you want to use a specific tag instead (recommended)
-;includes[] = http://github.com/xforty/xforty-drupal/raw/{TAG}/xforty-com.make
+;includes[] = http://github.com/xforty/xforty-drupal/raw/{TAG}/xforty.make
 
 ;----------------------------------------
 ; features
