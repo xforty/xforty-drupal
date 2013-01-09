@@ -183,6 +183,9 @@ projects[nice_menus][subdir] = contrib
 projects[nodeblock][version] = 1.2
 projects[nodeblock][subdir] = contrib
 
+projects[nodequeue][version] = 2.0-beta1
+projects[nodequeue][subdir] = contrib
+
 projects[omega_tools][version] = 3.0-rc4
 projects[omega_tools][subdir] = contrib
 ; http://drupal.org/node/1291520#comment-6109328 (sorted for better vcs)
