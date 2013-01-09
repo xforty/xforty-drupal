@@ -84,3 +84,4 @@ dependencies[] = wysiwyg
 ;----------------------------------------
 
 variables[admin_menu_position_fixed] = 1
+variables[pathauto_node_pattern] = [node:title]
