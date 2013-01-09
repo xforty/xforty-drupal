@@ -49,6 +49,9 @@ projects[admin_views][subdir] = contrib
 projects[auto_nodetitle][version] = 1.0
 projects[auto_nodetitle][subdir] = contrib
 
+projects[boxes][version] = 1.0
+projects[boxes][subdir] = contrib
+
 projects[calendar][version] = 3.4
 projects[calendar][subdir] = contrib
 
@@ -179,9 +182,6 @@ projects[module_filter][subdir] = contrib
 
 projects[nice_menus][version] = 2.1
 projects[nice_menus][subdir] = contrib
-
-projects[nodeblock][version] = 1.2
-projects[nodeblock][subdir] = contrib
 
 projects[nodequeue][version] = 2.0-beta1
 projects[nodequeue][subdir] = contrib
