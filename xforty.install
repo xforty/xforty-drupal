@@ -1,4 +1,10 @@
 <?php
+/**
+ * Modified from OpenEnterprise profile install.
+ */
+
+define('XFORTY_DEFAULT_THEME', 'bartik');
+define('XFORTY_ADMIN_THEME',   'seven');
 
 /**
  * Implements hook_install().
@@ -6,104 +12,60 @@
  * Perform actions to set up the site for this profile.
  */
 function xforty_install() {
-  // Add text formats.
-  $filtered_html_format = array(
-    'format' => 'filtered_html',
-    'name' => 'Filtered HTML',
-    'weight' => 0,
-    'filters' => array(
-      // URL filter.
-      'filter_url' => array(
-        'weight' => 0,
-        'status' => 1,
-      ),
-      // Image Resize filter.
-      'image_resize_filter' => array(
-        'weight' => 10,
-        'status' => 1,
-      ),
-      // HTML filter.
-      'filter_html' => array(
-        'weight' => 20,
-        'status' => 1,
-      ),
-      // Line break filter.
-      'filter_autop' => array(
-        'weight' => 30,
-        'status' => 1,
-      ),
-      // Convert Media tags filter.
-      'media_filter' => array(
-        'weight' => 40,
-        'status' => 1,
-      ),
-      // HTML corrector filter.
-      'filter_htmlcorrector' => array(
-        'weight' => 50,
-        'status' => 1,
-      ),
-      // Pathologic filter.
-      'pathologic' => array(
-        'weight' => 60,
-        'status' => 1,
-      ),
-    ),
-  );
-  $filtered_html_format = (object) $filtered_html_format;
-  filter_format_save($filtered_html_format);
+  xforty_enable_theme_settings();
+  xforty_setup_admin_role();
+  xforty_create_menus();
+  xforty_add_default_blocks();
+  xforty_add_content_types();
+  xforty_setup_users();
+  xforty_setup_tags();
+  xforty_set_variables();
+  xforty_cleanup();
+}
 
-  $full_html_format = array(
-    'format' => 'full_html',
-    'name' => 'Full HTML',
-    'weight' => 1,
-    'filters' => array(
-      // URL filter.
-      'filter_url' => array(
-        'weight' => 0,
-        'status' => 1,
-      ),
-      // Image Resize filter.
-      'image_resize_filter' => array(
-        'weight' => 10,
-        'status' => 1,
-      ),
-      // Line break filter.
-      'filter_autop' => array(
-        'weight' => 30,
-        'status' => 1,
-      ),
-      // Convert Media tags filter.
-      'media_filter' => array(
-        'weight' => 40,
-        'status' => 1,
-      ),
-      // HTML corrector filter.
-      'filter_htmlcorrector' => array(
-        'weight' => 50,
-        'status' => 1,
-      ),
-      // Pathologic filter.
-      'pathologic' => array(
-        'weight' => 60,
-        'status' => 1,
-      ),
-    ),
-  );
-  $full_html_format = (object) $full_html_format;
-  filter_format_save($full_html_format);
+/**
+ * Set default and admin themes.
+ */
+function xforty_enable_theme_settings () {
+  // Enable and set default theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', XFORTY_DEFAULT_THEME)
+    ->execute();
+  variable_set('theme_default', XFORTY_DEFAULT_THEME);
 
-  $default_theme = variable_get('theme_default', 'bartik');
-  $admin_theme = 'seven';
+  // Enable and set admin theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', XFORTY_ADMIN_THEME)
+    ->execute();
+  variable_set('admin_theme', XFORTY_ADMIN_THEME);
+  variable_set('node_admin_theme', '1');
+  variable_set('theme_seven_settings', array(
+    'toggle_logo' => 1,
+    'toggle_name' => 1,
+    'toggle_slogan' => 1,
+    'toggle_node_user_picture' => 1,
+    'toggle_comment_user_picture' => 1,
+    'toggle_comment_user_verification' => 1,
+    'toggle_favicon' => 1,
+    'toggle_main_menu' => 1,
+    'toggle_secondary_menu' => 1,
+    'default_logo' => 0,
+    'logo_path' => '',
+    'logo_upload' => '',
+    'default_favicon' => 1,
+    'favicon_path' => '',
+    'favicon_upload' => '',
+  ));
+}
 
-
-  // Allow visitor account creation with administrative approval.
-  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
-
-  // Enable default permissions for system roles.
-  $filtered_html_permission = filter_permission_name($filtered_html_format);
-  user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', $filtered_html_permission));
-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', $filtered_html_permission));
-
+/*
+ * Create the admin role
+ */
+function xforty_setup_admin_role() {
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
   $admin_role->name = 'administrator';
@@ -117,7 +79,12 @@ function xforty_install() {
   db_insert('users_roles')
     ->fields(array('uid' => 1, 'rid' => $admin_role->rid))
     ->execute();
+}
 
+/**
+ * Create menus and links
+ */
+function xforty_create_menus() {
   // Create a Home link in the main menu.
   $item = array(
     'link_title' => st('Home'),
@@ -128,27 +95,70 @@ function xforty_install() {
 
   // Update the menu router information.
   menu_rebuild();
+}
 
-  // Enable the admin theme.
-  db_update('system')
-    ->fields(array('status' => 1))
-    ->condition('type', 'theme')
-    ->condition('name', 'seven')
-    ->execute();
-  variable_set('admin_theme', 'seven');
-  variable_set('node_admin_theme', '1');
-
-  // Add main content block to default theme
+function xforty_add_default_blocks() {
+  // Enable some standard blocks.
   $values = array(
     array(
       'module' => 'system',
       'delta' => 'main',
-      'theme' => $default_theme,
+      'theme' => XFORTY_DEFAULT_THEME,
       'status' => 1,
       'weight' => 0,
       'region' => 'content',
       'pages' => '',
-      'cache' => DRUPAL_NO_CACHE,
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'login',
+      'theme' => XFORTY_DEFAULT_THEME,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_second',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'navigation',
+      'theme' => XFORTY_DEFAULT_THEME,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'sidebar_second',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'xforty',
+      'delta' => 'powered-by',
+      'theme' => XFORTY_DEFAULT_THEME,
+      'status' => 1,
+      'weight' => 10,
+      'region' => 'footer_bottom',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'system',
+      'delta' => 'main',
+      'theme' => XFORTY_ADMIN_THEME,
+      'status' => 1,
+      'weight' => 0,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
+    ),
+    array(
+      'module' => 'user',
+      'delta' => 'login',
+      'theme' => XFORTY_ADMIN_THEME,
+      'status' => 1,
+      'weight' => 10,
+      'region' => 'content',
+      'pages' => '',
+      'cache' => -1,
     ),
   );
   $query = db_insert('block')->fields(array('module', 'delta', 'theme', 'status', 'weight', 'region', 'pages', 'cache'));
@@ -156,4 +166,90 @@ function xforty_install() {
     $query->values($record);
   }
   $query->execute();
+}
+
+function xforty_add_content_types() {
+  $types = array(
+    array(
+      'type' => 'page',
+      'name' => st('Basic page'),
+      'base' => 'node_content',
+      'description' => st("Use <em>basic pages</em> for your static content, such as an 'About us' page."),
+      'custom' => 1,
+      'modified' => 1,
+      'locked' => 0,
+    ),
+  );
+
+  foreach ($types as $type) {
+    $type = node_type_set_defaults($type);
+    node_type_save($type);
+    node_add_body_field($type);
+  }
+
+  // Default "Basic page" to not be promoted and have comments disabled.
+  variable_set('node_options_page', array('status'));
+  variable_set('comment_page', COMMENT_NODE_HIDDEN);
+
+  // Don't display date and author information for "Basic page" nodes by default.
+  variable_set('node_submitted_page', FALSE);
+}
+
+function xforty_setup_users() {
+  // Enable user picture support and set the default to a square thumbnail option.
+  variable_set('user_pictures', '1');
+  variable_set('user_picture_dimensions', '1024x1024');
+  variable_set('user_picture_file_size', '800');
+  variable_set('user_picture_style', 'thumbnail');
+
+  // Only administrators can register new users.
+  variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
+}
+
+function xforty_setup_tags() {
+  // Create a default vocabulary named "Tags".
+  $description = st('Use tags to group content into categories.');
+  $help = st('Enter a comma-separated list of words to describe your content.');
+  $vocabulary = (object) array(
+    'name' => st('Tags'),
+    'description' => $description,
+    'machine_name' => 'tags',
+    'help' => $help,
+
+  );
+  taxonomy_vocabulary_save($vocabulary);
+}
+
+/**
+ * Set miscellaneous variables.
+ */
+function xforty_set_variables() {
+  // pathauto variables since they don't get set early enough for content.
+  variable_set('pathauto_node_pattern', '[node:content-type:machine-name]/[node:title]');
+  variable_set('pathauto_punctuation_underscore', '1');
+
+  // Set up date defaults so it doesn't yell at us anymore
+  variable_set('date_first_day', 0);
+  variable_set('date_format_long', 'l, F j, Y - H:i');
+  variable_set('date_format_medium', 'D, Y-m-d H:i');
+  variable_set('date_format_short', 'Y-m-d H:i');
+
+  // Keep admin_menu displayed at top of view window
+  variable_set('admin_menu_position_fixed', 1);
+}
+
+/**
+ * Perform various cleanup tasks after site-install.
+ */
+function xforty_cleanup() {
+  // Content access permissions
+  if (node_access_needs_rebuild()) {
+    node_access_rebuild(true);
+  }
+
+  // Update the menu router information
+  menu_rebuild();
+
+  // Ignore any drupal messages generated by module installs
+  drupal_get_messages();
 }

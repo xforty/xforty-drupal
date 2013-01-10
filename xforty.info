@@ -1,6 +1,6 @@
 name = Xforty Technologies
-description = Start with common modules and settings used by Xforty.
-version = 1.1.0
+description = Start with common modules and settings.
+version = 2.0.0
 core = 7.x
 files[] = xforty.profile
 files[] = xforty.install
@@ -48,6 +48,8 @@ dependencies[] = date_views
 dependencies[] = diff
 dependencies[] = email
 dependencies[] = entity
+dependencies[] = features
+dependencies[] = features_override
 dependencies[] = field_group
 dependencies[] = honeypot
 dependencies[] = image_resize_filter
@@ -68,6 +70,7 @@ dependencies[] = pathologic
 dependencies[] = redirect
 dependencies[] = revision_all
 dependencies[] = role_delegation
+dependencies[] = strongarm
 dependencies[] = taxonomy_formatter
 dependencies[] = token
 dependencies[] = view_unpublished
@@ -78,10 +81,3 @@ dependencies[] = webform
 dependencies[] = webform_validation
 dependencies[] = workbench
 dependencies[] = wysiwyg
-
-;----------------------------------------
-; variables
-;----------------------------------------
-
-variables[admin_menu_position_fixed] = 1
-variables[pathauto_node_pattern] = [node:title]
