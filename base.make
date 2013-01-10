@@ -9,10 +9,14 @@ projects[drupal][patch][] = http://drupal.org/files/undefined_function_during_in
 projects[drupal][patch][] = http://drupal.org/files/field_sql_storage_null_string_fix-1330952-2-D7.patch
 ; http://drupal.org/node/1040790#comment-6905572 (fixes field_info_fields warning during install)
 projects[drupal][patch][] = http://drupal.org/files/field-info-cache-1040790-240-D7.patch
+; http://drupal.org/node/1356276#comment-6654766 ("kinda" allows us to have sub-profiles)
+projects[drupal][patch][] = http://drupal.org/files/1356276-base-profile-d7-39-do-not-test.patch
 
 ;----------------------------------------
 ; features
 ;----------------------------------------
+
+
 
 ;----------------------------------------
 ; libraries
@@ -28,13 +32,6 @@ libraries[jquery_cycle][download][url] = https://github.com/downloads/malsup/cyc
 libraries[jquery_cycle][download][filename] = jquery.cycle.all.min.js
 libraries[jquery_cycle][directory_name] = jquery.cycle
 libraries[jquery_cycle][destination] = libraries
-
-; From a dev version of the 7.x-2.x branch (01/08/2013)
-; Issue #234884: Do not disable blocks.
-libraries[profiler][download][type] = get
-libraries[profiler][download][url] = http://drupalcode.org/project/profiler.git/snapshot/61f44c21e73243f7d38b71b7faa95220a04491f3.tar.gz
-libraries[profiler][directory_name] = profiler
-libraries[profiler][destination] = libraries
 
 ;----------------------------------------
 ; modules
@@ -281,6 +278,12 @@ projects[wysiwyg][patch][] = http://drupal.org/files/wysiwyg_height_per_field-50
 
 projects[xmlsitemap][version] = 2.0-rc2
 projects[xmlsitemap][subdir] = contrib
+
+;----------------------------------------
+; profiles
+;----------------------------------------
+
+
 
 ;----------------------------------------
 ; themes

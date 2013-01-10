@@ -1,27 +1,38 @@
-## DESCRIPTION
+xforty-drupal
+==============
+version 7.x-2.0.0 - [changelog](https://github.com/xforty/xforty-drupal/commits/7.x)
 
-Base makefile for Drupal 6.x, and 7.x.  Laying the ground work for a KIT
-implementation.  [[1](http://drupalcode.org/project/buildkit.git/blob/refs/heads/6.x-2.x:/README.txt)]
+A base make file and profile for Drupal projects.
 
-* `xforty.make` is the makefile that gets included by `disto.make`
-* `xforty.info` is the reference for building a new site.info
-* `xforty.profile` is the reference file for building a site.profile
-* `distro.make` is template you use to start
+### Requirements
 
+* [drush](http://drupal.org/project/drush)
 
-## LOCAL DEVELOPMENT
+### Make Files
 
-To develop changes to profile locally create a local.make file
+* `base.make` is the make file that gets included by your `distro.make`.
+* `examples/distro.make.example` is the template you can use to create your own make file.
 
-    ;;
-    ;; Stub makefile to building xforty-drupal
-    ;;
-    
-    includes[] = http://github.com/xforty/xforty-drupal/raw/master/xforty-com.make
-    
-    projects[xforty][type] = profile
-    projects[xforty][download][type] = git
-    projects[xforty][download][url] = "pearcec@127.0.0.1:/home/pearcec/xforty-drupal"
+### Basic Usage
+
+1. Create your own make file based on `examples/distro.make.example`.
+
+2. Use `drush make` to build your new make file.
+
+3. Install drupal site using the `xforty` profile.
+
+### Advanced Usage
+
+* View the `examples/sub_profile` folder to see how you can use
+  `xforty` as a base profile.
+
+### Resources
+
+* [Project Wiki](https://github.com/xforty/xforty-drupal/wiki) - HowTos,
+  FAQs, and advanced usage
+* [Project Issues](https://github.com/xforty/xforty-drupal/issues) - submit
+  bugs, support questions, and feature requests
+* [Drush Documentation](http://drush.ws)
 
 --------------------------------------------------------------------- 
 Maintained by [xforty technologies](http://www.xforty.com)
