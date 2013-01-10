@@ -9,6 +9,8 @@ projects[drupal][patch][] = http://drupal.org/files/undefined_function_during_in
 projects[drupal][patch][] = http://drupal.org/files/field_sql_storage_null_string_fix-1330952-2-D7.patch
 ; http://drupal.org/node/1040790#comment-6905572 (fixes field_info_fields warning during install)
 projects[drupal][patch][] = http://drupal.org/files/field-info-cache-1040790-240-D7.patch
+; http://drupal.org/node/1356276#comment-6654766 ("kinda" allows us to have sub-profiles)
+projects[drupal][patch][] = http://drupal.org/files/1356276-base-profile-d7-39-do-not-test.patch
 
 ;----------------------------------------
 ; features
