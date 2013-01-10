@@ -1,15 +1,16 @@
 <?php
 /**
- * Modified from OpenEnterprise profile install.
+ * The base profile xforty.install code. It was adapted
+ * from the OpenEnterprise profile install.
  */
 
 define('XFORTY_DEFAULT_THEME', 'bartik');
 define('XFORTY_ADMIN_THEME',   'seven');
 
 /**
- * Implements hook_install().
- *
  * Perform actions to set up the site for this profile.
+ *
+ * Implements hook_install().
  */
 function xforty_install() {
   xforty_enable_theme_settings();
@@ -97,8 +98,10 @@ function xforty_create_menus() {
   menu_rebuild();
 }
 
+/**
+ * Enable some standard blocks.
+ */
 function xforty_add_default_blocks() {
-  // Enable some standard blocks.
   $values = array(
     array(
       'module' => 'system',
@@ -168,6 +171,9 @@ function xforty_add_default_blocks() {
   $query->execute();
 }
 
+/**
+ * Add default content types.
+ */
 function xforty_add_content_types() {
   $types = array(
     array(
@@ -195,6 +201,9 @@ function xforty_add_content_types() {
   variable_set('node_submitted_page', FALSE);
 }
 
+/**
+ * Configure some user settings.
+ */
 function xforty_setup_users() {
   // Enable user picture support and set the default to a square thumbnail option.
   variable_set('user_pictures', '1');
@@ -206,8 +215,10 @@ function xforty_setup_users() {
   variable_set('user_register', USER_REGISTER_ADMINISTRATORS_ONLY);
 }
 
+/**
+ * Create a default vocabulary named "Tags".
+ */
 function xforty_setup_tags() {
-  // Create a default vocabulary named "Tags".
   $description = st('Use tags to group content into categories.');
   $help = st('Enter a comma-separated list of words to describe your content.');
   $vocabulary = (object) array(

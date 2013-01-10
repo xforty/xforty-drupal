@@ -11,15 +11,20 @@ A base make file and profile for Drupal projects.
 ### Make Files
 
 * `base.make` is the make file that gets included by your `distro.make`.
-* `distro.make` is the template you can use to create your own make file.
+* `examples/distro.make.example` is the template you can use to create your own make file.
 
 ### Basic Usage
 
-1. Create your own make file based on distro.make.
+1. Create your own make file based on `examples/distro.make.example`.
 
 2. Use `drush make` to build your new make file.
 
 3. Install drupal site using the `xforty` profile.
+
+### Advanced Usage
+
+* View the `examples/sub_profile` folder to see how you can use
+  `xforty` as a base profile.
 
 ### Resources
 

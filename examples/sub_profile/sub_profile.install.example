@@ -1,0 +1,35 @@
+<?php
+/**
+ * We'll use the xforty profile as a base, but you could possibly use
+ * other base profiles as well. You'd have to download them in your
+ * distro.make
+ */
+
+/**
+ * Pull in base profile's .install (base hook_install() will be run)
+ */
+require_once ("profiles/xforty/xforty.install");
+
+/**
+ * Perform actions to set up the site for this profile.
+ *
+ * Implements hook_install().
+ */
+function sub_profile_install() {
+  sub_profile_enable_default_theme('bartik');
+
+  // project-specific install code goes here
+}
+
+/**
+ * Set default theme.
+ */
+function sub_profile_enable_default_theme($default_theme) {
+  // Enable and set default theme.
+  db_update('system')
+    ->fields(array('status' => 1))
+    ->condition('type', 'theme')
+    ->condition('name', $default_theme)
+    ->execute();
+  variable_set('theme_default', $default_theme);
+}

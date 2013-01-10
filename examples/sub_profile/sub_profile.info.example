@@ -1,0 +1,22 @@
+name = Sub-Profile Example
+description = Example sub-profile of xforty.
+version = 1.0
+core = 7.x
+base = xforty
+
+files[] = sub_profile.profile
+files[] = sub_profile.install
+
+;----------------------------------------
+; sub-profile modules
+;----------------------------------------
+
+;dependencies[] = 
+
+;----------------------------------------
+; base profile modules
+;----------------------------------------
+
+; You have to manually copy over the dependencies from the base profile.
+; If a new dependency is added to the base make file, you will need to
+; add it here as well.
