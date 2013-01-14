@@ -11,12 +11,6 @@ files[] = sub_profile.install
 ; sub-profile modules
 ;----------------------------------------
 
-;dependencies[] = 
+; base profile modules are automatically included
 
-;----------------------------------------
-; base profile modules
-;----------------------------------------
-
-; You have to manually copy over the dependencies from the base profile.
-; If a new dependency is added to the base make file, you will need to
-; add it here as well.
+;dependencies[] =

@@ -13,6 +13,15 @@ define('XFORTY_ADMIN_THEME',   'seven');
  * Implements hook_install().
  */
 function xforty_install() {
+
+  // Make sure this function is only run once
+  static $xforty_install_ran;
+  if ($xforty_install_ran !== null) {
+    return;
+  } else {
+    $xforty_install_ran = true;
+  }
+
   xforty_enable_theme_settings();
   xforty_setup_admin_role();
   xforty_create_menus();

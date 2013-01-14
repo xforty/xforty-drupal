@@ -6,19 +6,32 @@
  */
 
 /**
- * Pull in base profile's .install (base hook_install() will be run)
- */
-require_once ("profiles/xforty/xforty.install");
-
-/**
  * Perform actions to set up the site for this profile.
  *
  * Implements hook_install().
  */
 function sub_profile_install() {
-  sub_profile_enable_default_theme('bartik');
+  // Install base profile
+  sub_profile_install_base();
 
   // project-specific install code goes here
+  sub_profile_enable_default_theme('bartik');
+}
+
+/**
+ * Install the base profile.
+ */
+function sub_profile_install_base() {
+  // Get the base profile name
+  $profile_name = basename(__FILE__, '.install');
+  $profile_info = install_profile_info($profile_name);
+  $base = $profile_info['base'];
+
+  // Execute the base profile install
+  if (!function_exists($base . '_install')) {
+    require_once(DRUPAL_ROOT . '/profiles/' . $base . '/' . $base . '.install');
+  }
+  call_user_func($base . '_install');
 }
 
 /**
