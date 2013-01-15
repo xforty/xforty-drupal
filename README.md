@@ -1,8 +1,14 @@
-xforty-drupal
-==============
+xforty-drupal (legacy)
+======================
 version 7.x-2.0.1 - [changelog](https://github.com/xforty/xforty-drupal/commits/7.x)
 
 A base make file and profile for Drupal projects.
+
+### NOTE!
+
+* For Drupal 7 projects, use the [xforty-drupal7](https://github.com/xforty/xforty-drupal7)
+  repo instead.
+* This repo is for legacy projects that don't use the new xforty-drupal7 repo.
 
 ### Requirements
 
