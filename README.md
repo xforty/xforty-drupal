@@ -1,6 +1,6 @@
 xforty-drupal
 ==============
-version 7.x-2.0.0 - [changelog](https://github.com/xforty/xforty-drupal/commits/7.x)
+version 7.x-2.0.1 - [changelog](https://github.com/xforty/xforty-drupal/commits/7.x)
 
 A base make file and profile for Drupal projects.
 
