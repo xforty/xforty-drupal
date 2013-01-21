@@ -149,8 +149,6 @@ projects[email][subdir] = contrib
 
 projects[emfield][version] = 2.6
 projects[emfield][subdir] = contrib
-; http://drupal.org/node/398400#comment-4689226 (fixes array_merge() warning on line 163)
-projects[emfield][patch][] = http://drupal.org/files/issues/398400-49.patch
 
 projects[exportables][version] = 2.0-beta1
 projects[exportables][subdir] = contrib
