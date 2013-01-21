@@ -2,7 +2,7 @@ api = 2
 core = 6.x
 
 projects[drupal][type] = core
-projects[drupal][version] = 6.22
+projects[drupal][version] = 6.28
 ; http://drupal.org/node/1173012#comment-4700370 (fixes block config resets during update)
 projects[drupal][patch][] = http://drupal.org/files/issues/0001-Issue-1173012-by-carlos8f-Blocks-disappear-after-cor_1.patch
 
@@ -31,10 +31,10 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[ckeditor][directory_name] = ckeditor
 libraries[ckeditor][destination] = "libraries"
 
-libraries[tinymce][download][type] = "get"
-libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip"
-libraries[tinymce][directory_name] = tinymce
-libraries[tinymce][destination] = "libraries"
+;libraries[tinymce][download][type] = "get"
+;libraries[tinymce][download][url] = "http://cloud.github.com/downloads/tinymce/tinymce/tinymce_3_3_9_3.zip"
+;libraries[tinymce][directory_name] = tinymce
+;libraries[tinymce][destination] = "libraries"
 
 libraries[mp3player][download][type] = "get"
 libraries[mp3player][download][url] = "http://wpaudioplayer.com/wp-content/downloads/audio-player-standalone.zip"
@@ -131,7 +131,7 @@ projects[date_repeat_fm][download][tag] = 6.x-1.0
 projects[deck][version] = 1.2
 projects[deck][subdir] = contrib
 
-projects[devel][version] = 1.26
+projects[devel][version] = 1.27
 projects[devel][subdir] = contrib
 
 projects[devel_themer][version] = 1.x-dev
@@ -149,7 +149,7 @@ projects[ds][subdir] = contrib
 projects[email][version] = 1.2
 projects[email][subdir] = contrib
 
-projects[emfield][version] = 2.5
+projects[emfield][version] = 2.6
 projects[emfield][subdir] = contrib
 ; http://drupal.org/node/398400#comment-4689226 (fixes array_merge() warning on line 163)
 projects[emfield][patch][] = http://drupal.org/files/issues/398400-49.patch
@@ -194,7 +194,7 @@ projects[ie_css_optimizer][subdir] = contrib
 projects[imageapi][version] = 1.10
 projects[imageapi][subdir] = contrib
 
-projects[imagecache][version] = 2.0-beta12
+projects[imagecache][version] = 2.0-rc1
 projects[imagecache][subdir] = contrib
 
 projects[imagefield][version] = 3.10
@@ -203,7 +203,7 @@ projects[imagefield][subdir] = contrib
 projects[image_resize_filter][version] = 1.13
 projects[image_resize_filter][subdir] = contrib
 
-projects[imce][version] = 2.3
+projects[imce][version] = 2.4
 projects[imce][subdir] = contrib
 
 projects[imce_crop][version] = 1.2
@@ -321,7 +321,7 @@ projects[revision_all][subdir] = contrib
 projects[role_delegation][version] = 1.4
 projects[role_delegation][subdir] = contrib
 
-projects[rules][version] = 1.4
+projects[rules][version] = 1.5
 projects[rules][subdir] = contrib
 
 projects[securepages][version] = 1.9
@@ -347,7 +347,7 @@ projects[taxonomy_delegate][subdir] = contrib
 ; http://drupal.org/node/427616#comment-3847376 (allows admin to see all delgated vocabs and menu link)
 projects[taxonomy_delegate][patch][] = "http://drupal.org/files/issues/427616-taxonomy_delegate-admin_access-1.3_0.patch"
 
-projects[token][version] = 1.16
+projects[token][version] = 1.19
 projects[token][subdir] = contrib
 
 projects[update_advanced][version] = 1.1
@@ -359,7 +359,7 @@ projects[user_delete][subdir] = contrib
 projects[user_settings_access][version] = 1.1
 projects[user_settings_access][subdir] = contrib
 
-projects[uuid][version] = 1.0-beta2
+projects[uuid][version] = 1.0-rc2
 projects[uuid][subdir] = contrib
 
 projects[uuid_features][version] = 1.0-alpha1
@@ -414,7 +414,7 @@ projects[workflow][version] = 1.5
 projects[workflow][subdir] = contrib
 
 ; The exportables & features patch wysiwyg-624018-with-ui-4.patch requires version 2.2
-projects[wysiwyg][version] = 2.2
+projects[wysiwyg][version] = 2.4
 projects[wysiwyg][subdir] = contrib
 ; http://drupal.org/node/624018#comment-3389060
 projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
