@@ -3,8 +3,11 @@ core = 6.x
 
 projects[drupal][type] = core
 projects[drupal][version] = 6.28
+<<<<<<< HEAD
+=======
 ; http://drupal.org/node/1173012#comment-4700370 (fixes block config resets during update)
 projects[drupal][patch][] = http://drupal.org/files/issues/0001-Issue-1173012-by-carlos8f-Blocks-disappear-after-cor_1.patch
+>>>>>>> 663deb9f5c4fd785b01c53a81f1f7e4c9ed9b751
 
 ;----------------------------------------
 ; features
@@ -413,11 +416,17 @@ projects[weight][subdir] = contrib
 projects[workflow][version] = 1.5
 projects[workflow][subdir] = contrib
 
+<<<<<<< HEAD
+=======
 ; The exportables & features patch wysiwyg-624018-with-ui-4.patch requires version 2.2
+>>>>>>> 663deb9f5c4fd785b01c53a81f1f7e4c9ed9b751
 projects[wysiwyg][version] = 2.4
 projects[wysiwyg][subdir] = contrib
-; http://drupal.org/node/624018#comment-3389060
-projects[wysiwyg][patch][] = "http://drupal.org/files/issues/wysiwyg-624018-with-ui-4.patch"
+
+projects[wysiwyg_ckeditor_css][type] = "module"
+projects[wysiwyg_ckeditor_css][subdir] = "custom"
+projects[wysiwyg_ckeditor_css][download][type] = "git"
+projects[wysiwyg_ckeditor_css][download][url] = "git@scm.xforty.com:wysiwyg_ckeditor_css"
 
 projects[wysiwyg_ckeditor_css][type] = "module"
 projects[wysiwyg_ckeditor_css][subdir] = "custom"
